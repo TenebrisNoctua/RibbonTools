@@ -1,6 +1,6 @@
-Created by Tenebris Noctua.
-https://twitter.com/TenebrisNoctua
-https://devforum.roblox.com/u/tenebrisnoctua/
+Created by Tenebris Noctua.<br>
+[Twitter](https://twitter.com/TenebrisNoctua)<br>
+[DevForum](https://devforum.roblox.com/u/tenebrisnoctua/)
 
 To Install, go to:
 Windows: `%LOCALAPPDATA%\Roblox\<userID>\CustomRibbonTabs`
