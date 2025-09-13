@@ -1,0 +1,257 @@
+{
+    "_comment": "Made by @TenebrisNoctua",
+    "Name": "Script",
+    "Controls": [
+        {
+            "Id": "47fa8427-33d0-463f-b9b2-03923162180d",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "Common",
+                "DataModel": "Standalone",
+                "ItemId": "Paste",
+                "Category": "Actions"
+            }
+        },
+        {
+            "Children": [
+                {
+                    "Id": "95803b3a-0a54-496b-9606-4ec731234796",
+                    "Type": "IconButton",
+                    "Action": {
+                        "PluginId": "Common",
+                        "DataModel": "Standalone",
+                        "Category": "Actions",
+                        "ItemId": "Cut"
+                    },
+                    "Size": "Medium"
+                },
+                {
+                    "Id": "997f12d0-ebcd-4039-9313-18cbe9aa7e27",
+                    "Type": "IconButton",
+                    "Action": {
+                        "PluginId": "Common",
+                        "DataModel": "Standalone",
+                        "ItemId": "Copy",
+                        "Category": "Actions"
+                    },
+                    "Size": "Medium"
+                }
+            ],
+            "Type": "Column"
+        },
+        {
+            "Children": [
+                {
+                    "Id": "07ec7c7b-e6b1-4970-88ac-0e88986afdf8",
+                    "Type": "IconButton",
+                    "Action": {
+                        "PluginId": "Common",
+                        "DataModel": "Standalone",
+                        "Category": "Actions",
+                        "ItemId": "Duplicate"
+                    },
+                    "Size": "Medium"
+                }
+            ],
+            "Type": "Column"
+        },
+        {
+            "Type": "Separator",
+            "Size": "Large"
+        },
+        {
+            "Id": "338e8be5-92e1-440d-8f58-821fb2cabc0d",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "ScriptTools",
+                "DataModel": "Standalone",
+                "ItemId": "Back",
+                "Category": "Actions"
+            }
+        },
+        {
+            "Id": "f3c81990-17db-4788-a2a1-92707d0accee",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "ScriptTools",
+                "DataModel": "Standalone",
+                "Category": "Actions",
+                "ItemId": "Forward"
+            }
+        },
+        {
+            "Size": "Large",
+            "Type": "Separator"
+        },
+        {
+            "Id": "Find",
+            "Type": "SplitButton",
+            "ShowSettingOptions": true,
+            "Setting": {
+                "PluginId": "ScriptTools",
+                "DataModel": "Standalone",
+                "ItemId": "Find",
+                "Category": "Settings"
+            }
+        },
+        {
+            "Id": "Format",
+            "Type": "SplitButton",
+            "Setting": {
+                "PluginId": "ScriptTools",
+                "DataModel": "Standalone",
+                "Category": "Settings",
+                "ItemId": "FormatScript"
+            },
+            "ShowSettingOptions": true
+        },
+        {
+            "Id": "Line",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "ScriptTools",
+                "DataModel": "Standalone",
+                "Category": "Actions",
+                "ItemId": "GoToLine"
+            }
+        },
+        {
+            "Size": "Large",
+            "Type": "Separator"
+        },
+        {
+            "Id": "da6550e9-5fdc-4cd1-a8af-1015f881b3e5",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "RunTools",
+                "DataModel": "Standalone",
+                "Category": "Actions",
+                "ItemId": "LaunchTestMode"
+            }
+        },
+        {
+            "Id": "4ff53b8a-c86b-4612-835e-6d1889bd2e95",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "RunTools",
+                "DataModel": "Standalone",
+                "ItemId": "ToggleDM",
+                "Category": "Actions"
+            }
+        },
+        {
+            "Id": "a45fe52b-8026-4f15-a7f5-38c4de6d1422",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "RunTools",
+                "DataModel": "Standalone",
+                "Category": "Actions",
+                "ItemId": "Pause"
+            }
+        },
+        {
+            "Id": "f18b8140-f369-46ec-b385-c5fd4c5a172c",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "RunTools",
+                "DataModel": "Standalone",
+                "ItemId": "Resume",
+                "Category": "Actions"
+            }
+        },
+        {
+            "Id": "ad86b056-12ee-40c6-843b-159ac02b4318",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "RunTools",
+                "DataModel": "Standalone",
+                "Category": "Actions",
+                "ItemId": "Stop"
+            }
+        },
+        {
+            "Size": "Large",
+            "Type": "Separator"
+        },
+        {
+            "Id": "9f1f4361-1d3f-42ed-9ad8-4fb6b9dcb6b7",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "ScriptTools",
+                "DataModel": "Standalone",
+                "Category": "Actions",
+                "ItemId": "StepInto"
+            }
+        },
+        {
+            "Id": "ad7dcfee-4a08-4663-8f12-a569fa9c8eb9",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "ScriptTools",
+                "DataModel": "Standalone",
+                "ItemId": "StepOver",
+                "Category": "Actions"
+            }
+        },
+        {
+            "Id": "fbb6c5f7-9efb-4eb9-97d8-50524225f7be",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "ScriptTools",
+                "DataModel": "Standalone",
+                "Category": "Actions",
+                "ItemId": "StepOut"
+            }
+        },
+        {
+            "Size": "Large",
+            "Type": "Separator"
+        },
+		{
+			"Type": "Column",
+            "Children": [
+				{
+					"Id": "3f0154f7-b8e6-4ce6-b204-24b0e76c65d0",
+					"Type": "Button",
+					"TextOnly": true,
+					"Size": "Small",
+					"Action": {
+						"PluginId": "ScriptTools",
+						"DataModel": "Standalone",
+						"ItemId": "ToggleComment",
+						"Category": "Actions"
+					}
+				},
+				{
+					"Id": "9edbd47d-bfa8-47c6-a125-1ffe53a9b2ae",
+					"Type": "Button",
+					"TextOnly": true,
+					"Size": "Small",
+					"Action": {
+						"PluginId": "ScriptTools",
+						"DataModel": "Standalone",
+						"Category": "Actions",
+						"ItemId": "UnfoldDocument"
+					}
+				},
+            ]
+        },
+		{
+			"Type": "Column",
+			"Children": [
+				{
+					"Id": "f205537d-6b0d-45cb-a3b1-c741ec0000bd",
+					"Type": "Button",
+					"TextOnly": true,
+					"Size": "Small",
+					"Action": {
+						"PluginId": "ScriptTools",
+						"DataModel": "Standalone",
+						"ItemId": "FoldDocument",
+						"Category": "Actions"
+					}
+				}
+			]
+		}
+    ]
+}

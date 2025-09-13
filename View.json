@@ -1,0 +1,352 @@
+{
+    "_comment": "Made by @TenebrisNoctua",
+    "Name": "View",
+    "Controls": [
+        {
+            "Id": "10439088-295e-408c-bd62-3457c5e88a7e",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "Explorer",
+                "DataModel": "Standalone",
+                "Category": "Actions",
+                "ItemId": "Toggle"
+            }
+        },
+        {
+            "Id": "e7c8c143-af1a-4d93-800e-53e160de5078",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "Properties",
+                "DataModel": "Standalone",
+                "ItemId": "Toggle",
+                "Category": "Actions"
+            }
+        },
+        {
+            "Size": "Large",
+            "Type": "Separator"
+        },
+        {
+            "Children": [
+                {
+                    "Id": "54bef367-e7ef-4517-a3c1-769c7e95b42c",
+                    "Type": "IconButton",
+                    "Action": {
+                        "PluginId": "AssetManager",
+                        "DataModel": "Standalone",
+                        "ItemId": "Toggle",
+                        "Category": "Actions"
+                    },
+                    "Size": "Small"
+                },
+                {
+                    "Id": "8b8d3a10-3866-4e0c-aae4-65a0369d5769",
+                    "Type": "IconButton",
+                    "Action": {
+                        "PluginId": "Toolbox",
+                        "DataModel": "Standalone",
+                        "ItemId": "Toggle",
+                        "Category": "Actions"
+                    },
+                    "Size": "Small"
+                }
+            ],
+            "Type": "Column"
+        },
+        {
+            "Children": [
+                {
+                    "Id": "276d4fce-d097-4f9f-b218-807143066a1c",
+                    "Type": "IconButton",
+                    "Action": {
+                        "PluginId": "Output",
+                        "DataModel": "Standalone",
+                        "Category": "Actions",
+                        "ItemId": "Toggle"
+                    },
+                    "Size": "Small"
+                },
+                {
+                    "Id": "d94eea13-269a-480e-b320-3f53471d26ff",
+                    "Type": "IconButton",
+                    "Action": {
+                        "PluginId": "Analysis",
+                        "DataModel": "Standalone",
+                        "Category": "Actions",
+                        "ItemId": "Toggle"
+                    },
+                    "Size": "Small"
+                }
+            ],
+            "Type": "Column"
+        },
+        {
+            "Children": [
+                {
+                    "Id": "1a4a1ad9-202d-438a-ab54-cf04bc480d5e",
+                    "Type": "IconButton",
+                    "Action": {
+                        "PluginId": "Statistics",
+                        "DataModel": "Standalone",
+                        "ItemId": "Summary",
+                        "Category": "Actions"
+                    },
+                    "Size": "Small"
+                },
+                {
+                    "Id": "643860c6-3453-42b2-aa16-1c162eba77e5",
+                    "Type": "IconButton",
+                    "Action": {
+                        "PluginId": "TaskScheduler",
+                        "DataModel": "Standalone",
+                        "Category": "Actions",
+                        "ItemId": "Toggle"
+                    },
+                    "Size": "Small"
+                }
+            ],
+            "Type": "Column"
+        },
+        {
+            "Children": [
+                {
+                    "Id": "4b316dc8-6911-4ac5-8347-b92bf5f14b62",
+                    "Type": "IconButton",
+                    "Action": {
+                        "PluginId": "ScriptTools",
+                        "DataModel": "Standalone",
+                        "Category": "Actions",
+                        "ItemId": "FindAll"
+                    },
+                    "Size": "Small"
+                },
+                {
+                    "Id": "17f959cb-92a0-438a-a048-1bdb9575d9ca",
+                    "Type": "IconButton",
+                    "Action": {
+                        "PluginId": "TagEditor",
+                        "DataModel": "Standalone",
+                        "ItemId": "Toggle",
+                        "Category": "Actions"
+                    },
+                    "Size": "Small"
+                }
+            ],
+            "Type": "Column"
+        },
+        {
+            "Children": [
+                {
+                    "Id": "26c5f1d4-654d-47a4-a8c1-42a432d516c5",
+                    "Type": "IconButton",
+                    "Action": {
+                        "PluginId": "Breakpoints",
+                        "DataModel": "Standalone",
+                        "ItemId": "Toggle",
+                        "Category": "Actions"
+                    },
+                    "Size": "Small"
+                },
+                {
+                    "Id": "2d6f9c5f-c6d4-482e-9ab4-d2f9500e02ec",
+                    "Type": "IconButton",
+                    "Action": {
+                        "PluginId": "Watch",
+                        "DataModel": "Standalone",
+                        "Category": "Actions",
+                        "ItemId": "Toggle"
+                    },
+                    "Size": "Small"
+                }
+            ],
+            "Type": "Column"
+        },
+        {
+            "Children": [
+                {
+                    "Id": "23cb70c0-e537-4ef6-8557-4003599f9b2a",
+                    "Type": "IconButton",
+                    "Action": {
+                        "PluginId": "CallStack",
+                        "DataModel": "Standalone",
+                        "Category": "Actions",
+                        "ItemId": "Toggle"
+                    },
+                    "Size": "Small"
+                },
+                {
+                    "Id": "f8c3e726-2102-44e7-86ef-6c967470aa72",
+                    "Type": "IconButton",
+                    "Action": {
+                        "PluginId": "TagEditor",
+                        "DataModel": "Standalone",
+                        "ItemId": "Toggle",
+                        "Category": "Actions"
+                    },
+                    "Size": "Small"
+                }
+            ],
+            "Type": "Column"
+        },
+        {
+            "Type": "Separator",
+            "Size": "Large"
+        },
+        {
+            "Id": "4263d41e-3a58-458e-a761-89013cfe62f1",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "ViewSelector",
+                "DataModel": "Standalone",
+                "ItemId": "Toggle",
+                "Category": "Actions"
+            }
+        },
+        {
+            "Id": "e969c17a-ff6b-4d3f-b539-391f4b1fbce0",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "WindControl",
+                "DataModel": "Standalone",
+                "Category": "Actions",
+                "ItemId": "Toggle"
+            }
+        },
+        {
+            "Id": "bada46e6-b342-4975-913f-97c8a7880790",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "WindowManagement",
+                "DataModel": "Standalone",
+                "ItemId": "FullScreen",
+                "Category": "Actions"
+            }
+        },
+        {
+            "Id": "8d91a1f3-e578-4b90-8435-e9016f2ccc16",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "Common",
+                "DataModel": "Standalone",
+                "Category": "Actions",
+                "ItemId": "ScreenShot"
+            }
+        },
+        {
+            "Id": "4da5ab25-5deb-4444-ab3e-0588aebee0ce",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "VideoRecord",
+                "DataModel": "Standalone",
+                "ItemId": "Toggle",
+                "Category": "Actions"
+            }
+        },
+        {
+            "Type": "Separator",
+            "Size": "Large"
+        },
+        {
+            "Id": "ec6742e6-9054-47ce-8d38-337f5138cb73",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "3DGrid",
+                "DataModel": "Standalone",
+                "ItemId": "Toggle",
+                "Category": "Actions"
+            }
+        },
+        {
+            "Id": "1e3c7463-d262-4e4e-9a6b-5310e4a7bc91",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "GridMaterial",
+                "DataModel": "Standalone",
+                "Category": "Actions",
+                "ItemId": "Toggle"
+            }
+        },
+        {
+            "Id": "3210b894-e619-475f-940a-23d28fe68036",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "WireframeRendering",
+                "DataModel": "Standalone",
+                "ItemId": "Toggle",
+                "Category": "Actions"
+            }
+        },
+        {
+            "Id": "d96703f4-447a-4027-bc0c-7e1b1318dfa7",
+            "Type": "IconButton",
+            "Action": {
+                "PluginId": "UIVisibility",
+                "DataModel": "Standalone",
+                "Category": "Actions",
+                "ItemId": "Toggle"
+            }
+        },
+        {
+            "Size": "Large",
+            "Type": "Separator"
+        },
+        {
+			"Type": "Column",
+            "Children": [
+                {
+                    "Type": "Button",
+                    "Action": {
+                        "PluginId": "Statistics",
+                        "DataModel": "Standalone",
+                        "ItemId": "General",
+                        "Category": "Actions"
+                    },
+                    "TextOnly": true,
+                    "Id": "f6ea6301-cbfc-4850-a440-8ec79993818c",
+                    "Size": "Small"
+                },
+                {
+                    "Type": "Button",
+                    "Action": {
+                        "PluginId": "Statistics",
+                        "DataModel": "Standalone",
+                        "Category": "Actions",
+                        "ItemId": "Render"
+                    },
+                    "TextOnly": true,
+                    "Id": "384953e1-8904-4192-ae1f-fb282a4b7e5b",
+                    "Size": "Small"
+                }
+            ]
+        },
+        {
+			"Type": "Column",
+            "Children": [
+                {
+                    "Type": "Button",
+                    "Action": {
+                        "PluginId": "Statistics",
+                        "DataModel": "Standalone",
+                        "ItemId": "Physics",
+                        "Category": "Actions"
+                    },
+                    "TextOnly": true,
+                    "Id": "bb99e0d7-4fde-42ad-81e5-4e9cc37112e9",
+                    "Size": "Small"
+                },
+                {
+                    "Type": "Button",
+                    "Action": {
+                        "PluginId": "Statistics",
+                        "DataModel": "Standalone",
+                        "Category": "Actions",
+                        "ItemId": "Network"
+                    },
+                    "TextOnly": true,
+                    "Id": "c103b153-d70c-4bbe-98a5-df0bad63dde7",
+                    "Size": "Small"
+                }
+            ]
+        }
+    ]
+}
