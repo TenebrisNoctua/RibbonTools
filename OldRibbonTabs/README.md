@@ -1,3 +1,5 @@
+In this folder, there exists `.json` files which contain accurate (as possible) re-creations of the old Ribbon tabs of Roblox Studio.
+
 To Install, go to:
 * Windows: `%LOCALAPPDATA%\Roblox\<userID>\CustomRibbonTabs`
 * MacOS: `~/Documents/Roblox/<userID>/CustomRibbonTabs`
