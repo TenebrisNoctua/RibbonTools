@@ -1,13 +1,9 @@
-Created by Tenebris Noctua.<br>
-[Twitter](https://twitter.com/TenebrisNoctua)<br>
-[DevForum](https://devforum.roblox.com/u/tenebrisnoctua/)
+This is a repository meant for containing tools and resources for the Ribbon of Roblox Studio.
+Each folder in the repo contains a README file which explains the purpose of the tool.
 
-To Install, go to:
-* Windows: `%LOCALAPPDATA%\Roblox\<userID>\CustomRibbonTabs`
-* MacOS: `~/Documents/Roblox/<userID>/CustomRibbonTabs`
+If you'd like to contribute to one of the tools, feel free to open a PR.
 
-And simply drop all of the `.json` files (or the ones you would like) to the folder.
-Then, if the studio is open, reload the custom tabs through the Manage Tabs menu, and they should all appear.
-After that, you can reorder or disable some of them if you wish.
+## Tools
 
-Enjoy.
+* [OldRibbonTabs](OldRibbonTabs/README.md)
+* [RibbonBuiltInControls](RibbonBuiltInControls/README.md)

@@ -1,0 +1,3242 @@
+[
+    {
+        "Text": "Show labels",
+        "Tooltip": "Show labels",
+        "Uri": {
+            "PluginId": "Ribbon",
+            "DataModel": "Standalone",
+            "Category": "Actions",
+            "PluginType": "Standalone",
+            "ItemId": "ShowHideLabels"
+        }
+    },
+    {
+        "Text": "Create",
+        "Tooltip": "Place a constraint or an attachment",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/Constraint",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "UICorner",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonUICorner@2x.png",
+        "Tooltip": "UICorner",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/UICorner",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Prismatic",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonPrismaticConstraint@2x.png",
+        "Tooltip": "Create prismatic constraint",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ConstraintPrismatic",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Save to Roblox",
+        "Tooltip": "Save active document to Roblox",
+        "Uri": {
+            "PluginId": "PlaceManagement",
+            "DataModel": "Standalone",
+            "ItemId": "SaveToRoblox",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Call Stack",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonCallStack@2x.png",
+        "Tooltip": "View current call stack",
+        "Uri": {
+            "PluginId": "CallStack",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Live Collaborators",
+        "Tooltip": "Team members actively creating in this place",
+        "Uri": {
+            "PluginId": "LiveCollaborators",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Breakpoints",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonBreakpoints@2x.png",
+        "Tooltip": "View existing breakpoints",
+        "Uri": {
+            "PluginId": "Breakpoints",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Watch",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonWatch@2x.png",
+        "Tooltip": "View currently watched variables",
+        "Uri": {
+            "PluginId": "Watch",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Comments",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonAnnotationsSmall@2x.png",
+        "Tooltip": "Toggle the comment panel to display comment threads.",
+        "Uri": {
+            "PluginId": "PlaceAnnotations",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Collapse toolbar",
+        "Tooltip": "Collapse toolbar",
+        "Uri": {
+            "PluginId": "Ribbon",
+            "DataModel": "Standalone",
+            "Category": "Actions",
+            "PluginType": "Standalone",
+            "ItemId": "DockUndockRibbon"
+        }
+    },
+    {
+        "Text": "Manage tabs",
+        "Tooltip": "Manage tabs",
+        "Uri": {
+            "PluginId": "Ribbon",
+            "DataModel": "Standalone",
+            "Category": "Actions",
+            "PluginType": "Standalone",
+            "ItemId": "ManageTabs"
+        }
+    },
+    {
+        "Text": "Universal",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonUniversalConstraint@2x.png",
+        "Tooltip": "Create universal constraint",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ConstraintUniversal",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Export as Obj",
+        "Tooltip": "Export as Obj",
+        "Uri": {
+            "PluginId": "Export",
+            "DataModel": "Standalone",
+            "ItemId": "ExportSelection",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Show Wind Direction",
+        "Icon": "rbxasset://studio_svg_textures/Shared/WidgetIcons/{Theme}/Large/GlobalWindControl@2x.png",
+        "Tooltip": "Show Wind Direction",
+        "Uri": {
+            "PluginId": "WindControl",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Device Emulator",
+        "Icon": "rbxasset://textures/DeviceEmulator/emulator.png",
+        "Tooltip": "Device Emulator",
+        "Uri": {
+            "PluginId": "DeviceEmulation",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Commit",
+        "Tooltip": "Push the current edits to a script to the Team Create server",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "CommitScript",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Toggle comment cursor",
+        "Icon": "rbxasset://studio_svg_textures/Shared/WidgetIcons/{Theme}/Standard/AddAnnotation@2x.png",
+        "Tooltip": "Toggle the comment cursor to leave comments in the 3D viewport.",
+        "Uri": {
+            "PluginId": "PlaceAnnotations",
+            "DataModel": "Standalone",
+            "ItemId": "AddAnnotation",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Show View Selector",
+        "Tooltip": "Show view selector",
+        "Uri": {
+            "PluginId": "ViewSelector",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Publish to Package",
+        "Tooltip": "Publish to Package",
+        "Uri": {
+            "PluginId": "PackageTools",
+            "DataModel": "Standalone",
+            "ItemId": "PublishPackage",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Invite Collaborators",
+        "Icon": "rbxasset://studio_svg_textures/Shared/WidgetIcons/{Theme}/Standard/AddCollaborator@2x.png",
+        "Tooltip": "Share your project and start building together",
+        "Uri": {
+            "PluginId": "ManageCollaborators",
+            "DataModel": "Standalone",
+            "ItemId": "Open",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Compact toolbar",
+        "Tooltip": "Compact toolbar",
+        "Uri": {
+            "PluginId": "Ribbon",
+            "DataModel": "Standalone",
+            "Category": "Actions",
+            "PluginType": "Standalone",
+            "ItemId": "CompactDensity"
+        }
+    },
+    {
+        "Text": "UIFlexItem",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonUIFlexItem@2x.png",
+        "Tooltip": "UIFlexItem",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/UIFlexItem",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Show Grid Material",
+        "Tooltip": "Display grid material on Parts",
+        "Uri": {
+            "PluginId": "GridMaterial",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Show Grid",
+        "Tooltip": "Display a 3D grid on the y=0 plane",
+        "Uri": {
+            "PluginId": "3DGrid",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Setup",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonSetup@2x.png",
+        "Tooltip": "Set up avatar bodies and accessories for the experience or Marketplace",
+        "Uri": {
+            "PluginId": "AvatarSetup",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "AdGui",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonAdGUI@2x.png",
+        "Tooltip": "AdGui",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/AdGui",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Output",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonOutput@2x.png",
+        "Tooltip": "See the output feed of your scripts",
+        "Uri": {
+            "PluginId": "Output",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Show Welds",
+        "Tooltip": "Show welds between parts",
+        "Uri": {
+            "PluginId": "Constraints",
+            "DataModel": "Standalone",
+            "ItemId": "ShowWelds",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Script",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonScript@2x.png",
+        "Tooltip": "Insert a script",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/Script",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Show Constraint Details",
+        "Tooltip": "Show constraint details",
+        "Uri": {
+            "PluginId": "Constraints",
+            "DataModel": "Standalone",
+            "ItemId": "ShowDetails",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Quick Import",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/Ribbon3DImport@2x.png",
+        "Tooltip": "Import a 3D file and insert it into workspace",
+        "Uri": {
+            "PluginId": "AssetImport",
+            "DataModel": "Standalone",
+            "ItemId": "QuickImporter",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Export as glTF",
+        "Tooltip": "Export as glTF",
+        "Uri": {
+            "PluginId": "Export",
+            "DataModel": "Standalone",
+            "ItemId": "ExportAsGltf",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Help",
+        "Tooltip": "Show help for selected object",
+        "Uri": {
+            "PluginId": "Common",
+            "DataModel": "Standalone",
+            "ItemId": "Help",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Print Actions",
+        "Tooltip": "Prints all actions to stdout as JSON",
+        "Uri": {
+            "PluginId": "Ribbon",
+            "DataModel": "Standalone",
+            "Category": "Actions",
+            "PluginType": "Standalone",
+            "ItemId": "PrintActions"
+        }
+    },
+    {
+        "Text": "Back",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonBack@2x.png",
+        "Tooltip": "Jump to previous script location",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "Back",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Toggle Client/Server View",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonClientSmall@2x.png",
+        "Tooltip": "Toggle between client and server view",
+        "Uri": {
+            "PluginId": "RunTools",
+            "DataModel": "Standalone",
+            "ItemId": "ToggleDM",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Pan Right",
+        "Tooltip": "Pan Right",
+        "Uri": {
+            "PluginId": "Camera",
+            "DataModel": "Standalone",
+            "ItemId": "PanRight",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Step Out",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonStepOut@2x.png",
+        "Tooltip": "Moves the debugger out of the current function to the next line after the function was called",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "StepOut",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Resume Scripts",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonResumeScriptsSmall@2x.png",
+        "Tooltip": "Resume scripts and simulation",
+        "Uri": {
+            "PluginId": "RunTools",
+            "DataModel": "Standalone",
+            "ItemId": "Resume",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Show Wireframe Rendering",
+        "Tooltip": "Enable Wireframe Rendering",
+        "Uri": {
+            "PluginId": "WireframeRendering",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "SurfaceLight",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonEffect_SurfaceLight@2x.png",
+        "Tooltip": "SurfaceLight",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/SurfaceLight",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Torque",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonTorque@2x.png",
+        "Tooltip": "Create torque",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ConstraintTorque",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Material",
+        "Tooltip": "Choose materials to apply to objects in the scene",
+        "Uri": {
+            "PluginId": "MaterialPicker",
+            "DataModel": "Standalone",
+            "ItemId": "MaterialPickerDropdown",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Step Forward: Client/Server",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonStepForwardSmall@2x.png",
+        "Tooltip": "Step client or server forward one frame",
+        "Uri": {
+            "PluginId": "RunTools",
+            "DataModel": "Standalone",
+            "ItemId": "StepForwardPhysicsCurrent",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Both",
+        "Tooltip": "Sets selection rendering mode to outlines and bounding boxes",
+        "Uri": {
+            "PluginId": "SelectionRenderModes",
+            "DataModel": "Standalone",
+            "ItemId": "ViewBoth",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Performance Summary",
+        "Tooltip": "A basic performance overlay",
+        "Uri": {
+            "PluginId": "Statistics",
+            "DataModel": "Standalone",
+            "ItemId": "Summary",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Download a Copy",
+        "Tooltip": "Download a copy of the active document",
+        "Uri": {
+            "PluginId": "PlaceManagement",
+            "DataModel": "Standalone",
+            "ItemId": "DownloadAsCopy",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Ball in Socket",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonBallSocketConstraint@2x.png",
+        "Tooltip": "Create ball in socket",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ConstraintBallInSocket",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Reset all tabs",
+        "Tooltip": "Reset all tabs",
+        "Uri": {
+            "PluginId": "Ribbon",
+            "DataModel": "Standalone",
+            "Category": "Actions",
+            "PluginType": "Standalone",
+            "ItemId": "ResetTabs"
+        }
+    },
+    {
+        "Text": "Pause Client/Server",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonPauseSmall@2x.png",
+        "Tooltip": "Pause client or server physics and animations",
+        "Uri": {
+            "PluginId": "RunTools",
+            "DataModel": "Standalone",
+            "ItemId": "PausePhysicsCurrent",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "UIAspectRatioConstraint",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonUIAspectRatioConstraint@2x.png",
+        "Tooltip": "UIAspectRatioConstraint",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/UIAspectRatioConstraint",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Hide Service in Explorer",
+        "Tooltip": "Hide Service in Explorer",
+        "Uri": {
+            "PluginId": "InsertService",
+            "DataModel": "Standalone",
+            "ItemId": "HideService",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Play",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonPlaySmall@2x.png",
+        "Tooltip": "Start simulating the experience",
+        "Uri": {
+            "PluginId": "RunTools",
+            "DataModel": "Standalone",
+            "ItemId": "LaunchTestMode",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Export as glTF",
+        "Tooltip": "Export as glTF",
+        "Uri": {
+            "PluginId": "Export",
+            "DataModel": "Standalone",
+            "ItemId": "ExportPlaceAsGltf",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "UIGridLayout",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonUIGridLayout@2x.png",
+        "Tooltip": "UIGridLayout",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/UIGridLayout",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Collapse Script Folds",
+        "Tooltip": "Collapse all foldable sections of scripts",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "FoldDocument",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Reload custom tabs",
+        "Tooltip": "Reloads the Ribbon, using current configuration on disk",
+        "Uri": {
+            "PluginId": "Ribbon",
+            "DataModel": "Standalone",
+            "Category": "Actions",
+            "PluginType": "Standalone",
+            "ItemId": "ReloadTabs"
+        }
+    },
+    {
+        "Text": "Add tools",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonAddTools@2x.png",
+        "Tooltip": "Add tools",
+        "Uri": {
+            "PluginId": "Ribbon",
+            "DataModel": "Standalone",
+            "Category": "Actions",
+            "PluginType": "Standalone",
+            "ItemId": "AddTools"
+        }
+    },
+    {
+        "Text": "Union",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonUnionOperation@2x.png",
+        "Tooltip": "Fuse parts together to make a single part",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "UnionSelection",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Beta Features",
+        "Tooltip": "Beta Features",
+        "Uri": {
+            "PluginId": "AppConfiguration",
+            "DataModel": "Standalone",
+            "ItemId": "BetaFeatures",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Save",
+        "Tooltip": "Save the active place to the location currently open in Studio",
+        "Uri": {
+            "PluginId": "PlaceManagement",
+            "DataModel": "Standalone",
+            "ItemId": "SavePlace",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Add divider",
+        "Tooltip": "Add divider",
+        "Uri": {
+            "PluginId": "Ribbon",
+            "DataModel": "Standalone",
+            "Category": "Actions",
+            "PluginType": "Standalone",
+            "ItemId": "AddSeparator"
+        }
+    },
+    {
+        "Text": "Step Forward",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonStepForwardSmall@2x.png",
+        "Tooltip": "Step forward one frame in the simulation",
+        "Uri": {
+            "PluginId": "RunTools",
+            "DataModel": "Standalone",
+            "ItemId": "StepForwardPhysicsAll",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Resume Client/Server",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonResumeSmall@2x.png",
+        "Tooltip": "Resume client or server physics and animations",
+        "Uri": {
+            "PluginId": "RunTools",
+            "DataModel": "Standalone",
+            "ItemId": "ResumePhysicsCurrent",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Pause",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonPauseSmall@2x.png",
+        "Tooltip": "Pause all physics and animations",
+        "Uri": {
+            "PluginId": "RunTools",
+            "DataModel": "Standalone",
+            "ItemId": "PausePhysicsAll",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Step Over",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonStepOver@2x.png",
+        "Tooltip": "Moves the debugger to the next line of code without moving into functions",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "StepOver",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Paste",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Clipboard/{Theme}/Standard/Paste@2x.png",
+        "Tooltip": "Paste item in clipboard",
+        "Uri": {
+            "PluginId": "Common",
+            "DataModel": "Standalone",
+            "ItemId": "Paste",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Stop",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonStopActiveSmall@2x.png",
+        "Tooltip": "End simulation",
+        "Uri": {
+            "PluginId": "RunTools",
+            "DataModel": "Standalone",
+            "ItemId": "Stop",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Resume",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonResumeSmall@2x.png",
+        "Tooltip": "Resume all physics and animations",
+        "Uri": {
+            "PluginId": "RunTools",
+            "DataModel": "Standalone",
+            "ItemId": "ResumePhysicsAll",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Server and Clients",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonStartServerAndClientSmall@2x.png",
+        "Tooltip": "Start a server and multiple client sessions",
+        "Uri": {
+            "PluginId": "RunTools",
+            "DataModel": "Standalone",
+            "ItemId": "ServerAndClients",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Step Into",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonStepIntoSmall@2x.png",
+        "Tooltip": "Moves the debugger into the function on the current line",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "StepInto",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Connection Status",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonStatus_GreenSmall@2x.png",
+        "Tooltip": "This shows the status of your connection to the Team Create server",
+        "Uri": {
+            "PluginId": "ConnectionIndicator",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Save and Reload All Plugins in Debugger",
+        "Tooltip": "Save and Reload All Plugins in Debugger",
+        "Uri": {
+            "PluginId": "PluginDebugging",
+            "DataModel": "Standalone",
+            "ItemId": "SaveAndReloadAllDebuggablePlugins",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Lock Tool",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonLockTool@2x.png",
+        "Tooltip": "Toggle whether an object can be selected",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "LockTool",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "AI Assistant",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonAI@2x.png",
+        "Tooltip": "Chat with Studio Assistant to get help and accelerate creation",
+        "Uri": {
+            "PluginId": "Assistant",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "AI Assistant",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonAI@2x.png",
+        "Tooltip": "Chat with Studio Assistant to get help and accelerate creation",
+        "Uri": {
+            "PluginId": "AssistantPlugin",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Update available",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonUpdateSmall@2x.png",
+        "Tooltip": "Studio will save all changes and restart",
+        "Uri": {
+            "PluginId": "UpdateAvailable",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Rotate",
+        "Tooltip": "Rotate objects",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "RotateSelection",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Share",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonShareSmall@2x.png",
+        "Tooltip": "Get the public link for this experience",
+        "Uri": {
+            "PluginId": "ShareGame",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Save as Local Plugin",
+        "Tooltip": "Create a local plugin from this script...",
+        "Uri": {
+            "PluginId": "PluginManagement",
+            "DataModel": "Standalone",
+            "ItemId": "SaveAsLocalPlugin",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Block",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonPart@2x.png",
+        "Tooltip": "Insert block part",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/Block",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Color",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonColor@2x.png",
+        "Tooltip": "Select color and apply to parts",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "SelectColor",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Activity History",
+        "Icon": "rbxasset://studio_svg_textures/Shared/WidgetIcons/{Theme}/Standard/ActivityHistory@2x.png",
+        "Tooltip": "Activity History",
+        "Uri": {
+            "PluginId": "ActivityFeed",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Explorer",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonExplorer@2x.png",
+        "Tooltip": "View a list of objects in the workspace",
+        "Uri": {
+            "PluginId": "Explorer",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Align",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonAlignTool@2x.png",
+        "Tooltip": "Align the selected parts and models",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Align",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Behavior Script",
+        "Tooltip": "Insert a behavior",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/BehaviorScript",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Scale",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonScale@2x.png",
+        "Tooltip": "Resize an Object",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Scale",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Align Orientation",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonAlignOrientation@2x.png",
+        "Tooltip": "Create align orientation",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ConstraintAlignOrientation",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Wedge",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonPart_Wedge@2x.png",
+        "Tooltip": "Insert wedge part",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/Wedge",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Material",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonMaterial@2x.png",
+        "Tooltip": "Select a material to use",
+        "Uri": {
+            "PluginId": "MaterialPicker",
+            "DataModel": "Standalone",
+            "ItemId": "MaterialPickerButton",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Anchor Selection",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonAnchor@2x.png",
+        "Tooltip": "Toggle whether an object is immovable by physics",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Anchor",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Character",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonCharacter@2x.png",
+        "Tooltip": "Choose from a selection of pre-made animation rigs to create",
+        "Uri": {
+            "PluginId": "Character",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Find and Replace All",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonFindAll@2x.png",
+        "Tooltip": "View Find/Replace Window",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "FindAll",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "SurfaceGui",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonSurfaceGui@2x.png",
+        "Tooltip": "SurfaceGui",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/SurfaceGui",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Corner Wedge",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonPart_Wedge@2x.png",
+        "Tooltip": "Insert CornerWedgePart",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/CornerWedge",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Toolbox",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonToolbox@2x.png",
+        "Tooltip": "Insert items from the toolbox",
+        "Uri": {
+            "PluginId": "Toolbox",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Local Script",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonLocalScript@2x.png",
+        "Tooltip": "Insert a local script",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/LocalScript",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Unlock All",
+        "Tooltip": "Unlock All",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "UnlockAll",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Move",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonMove@2x.png",
+        "Tooltip": "Move an Object",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Move",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "ScreenGui",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonGUI@2x.png",
+        "Tooltip": "The core GUI object on which tools are built.  Add Frames/Labels/Buttons to this object to have them rendered as a 2D overlay",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ScreenGui",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Rotate",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonRotate@2x.png",
+        "Tooltip": "Rotate an Object",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Rotate",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Properties",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonProperties@2x.png",
+        "Tooltip": "View properties of objects",
+        "Uri": {
+            "PluginId": "Properties",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Save as Default Instance",
+        "Tooltip": "Save as Default Instance",
+        "Uri": {
+            "PluginId": "CustomizedDefaults",
+            "DataModel": "Standalone",
+            "ItemId": "SaveDefault",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Anchor Tool",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonAnchorTool@2x.png",
+        "Tooltip": "Toggle whether an object is immovable by physics",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "AnchorTool",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Terrain",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonTerrain@2x.png",
+        "Tooltip": "Create and edit terrain",
+        "Uri": {
+            "PluginId": "TerrainTools",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Publish as Plugin",
+        "Tooltip": "Publish the selection to Roblox as a plugin",
+        "Uri": {
+            "PluginId": "PluginManagement",
+            "DataModel": "Standalone",
+            "ItemId": "PublishToRoblox",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Cylinder",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonPart_Cylinder@2x.png",
+        "Tooltip": "Insert cylinder part",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/Cylinder",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Duplicate",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Clipboard/{Theme}/Standard/Duplicate@2x.png",
+        "Tooltip": "Duplicate current selection",
+        "Uri": {
+            "PluginId": "Common",
+            "DataModel": "Standalone",
+            "ItemId": "Duplicate",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Group as Model",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonGroup@2x.png",
+        "Tooltip": "Group the selected parts into a new Model",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "GroupAsModel",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Find",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonFind@2x.png",
+        "Tooltip": "Find",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "Find",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Group as Folder",
+        "Tooltip": "Group the selected Instances into a new Folder",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "GroupAsFolder",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Lock Selection",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonLock@2x.png",
+        "Tooltip": "Toggle whether an object can be selected",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Lock",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Import 3D",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/Ribbon3DImport@2x.png",
+        "Tooltip": "Import a mesh rig or avatar from a file using the import UI.",
+        "Uri": {
+            "PluginId": "MeshImporter",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Sphere",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonPart_Sphere@2x.png",
+        "Tooltip": "Insert sphere part",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/Sphere",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Tutorials",
+        "Tooltip": "Tutorials",
+        "Uri": {
+            "PluginId": "Help",
+            "DataModel": "Standalone",
+            "ItemId": "Open/Tutorials",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "PointLight",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonEffect_PointLight@2x.png",
+        "Tooltip": "PointLight",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/PointLight",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Transform",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonTransform@2x.png",
+        "Tooltip": "Precisely manipulate an object",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Transform",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "BillboardGui",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonBillboardGUI@2x.png",
+        "Tooltip": "BillboardGui",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/BillboardGui",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "UIPadding",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonUIPadding@2x.png",
+        "Tooltip": "UIPadding",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/UIPadding",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Explosion",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonExplosion@2x.png",
+        "Tooltip": "Explosion",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/Explosion",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Module Script",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonModuleScript@2x.png",
+        "Tooltip": "Insert a module script",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ModuleScript",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Find Next",
+        "Tooltip": "Find Next",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "FindNext",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Asset Manager",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonAssetManager@2x.png",
+        "Tooltip": "View Asset Manager",
+        "Uri": {
+            "PluginId": "AssetManager",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Select",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonSelect@2x.png",
+        "Tooltip": "Select an Object",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Select",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Beam",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonEffect_Beam@2x.png",
+        "Tooltip": "Beam",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/Beam",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Color",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonColor@2x.png",
+        "Tooltip": "Select color and apply to parts",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "ApplyColor",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "2 Studs",
+        "Tooltip": "Set Grid Size to 2 Studs",
+        "Uri": {
+            "PluginId": "3DGrid",
+            "DataModel": "Standalone",
+            "ItemId": "SetGridSizeToTwo",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Publish to Roblox",
+        "Tooltip": "Publish active document to Roblox",
+        "Uri": {
+            "PluginId": "PlaceManagement",
+            "DataModel": "Standalone",
+            "ItemId": "PublishToRoblox",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Plugins Folder",
+        "Icon": "rbxasset://studio_svg_textures/Shared/WidgetIcons/{Theme}/Large/PluginsFolder@2x.png",
+        "Tooltip": "Open the local plugins folder",
+        "Uri": {
+            "PluginId": "PluginManagement",
+            "DataModel": "Standalone",
+            "ItemId": "OpenLocalPluginsFolder",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Go to Line",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonGoToLine@2x.png",
+        "Tooltip": "Go to a line in the script",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "GoToLine",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Toggle Comment",
+        "Tooltip": "Toggle selection commenting",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "ToggleComment",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Expand Script Folds",
+        "Tooltip": "Expand all collapsed folds in the script",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "UnfoldDocument",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Format Document",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonFormatDocument@2x.png",
+        "Tooltip": "Format the entire document",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "FormatDocument",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Format Selection",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonFormatSelection@2x.png",
+        "Tooltip": "Format selected range of document",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "FormatSelection",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Indent",
+        "Tooltip": "Indent selected line(s)",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "IndentSelection",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Unindent",
+        "Tooltip": "Unindent selected line(s)",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "UnindentSelection",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Pivot",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonEditPivot@2x.png",
+        "Tooltip": "Edit the point around which the selected object rotates and translates",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "EditPivot",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Reset",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonResetPivot@2x.png",
+        "Tooltip": "Reset the pivots of the selected objects",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "ResetPivot",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Run",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonRunSmall@2x.png",
+        "Tooltip": "Start the simulation at the camera's current position without a player",
+        "Uri": {
+            "PluginId": "RunTools",
+            "DataModel": "Standalone",
+            "ItemId": "Run",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Material",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonMaterial@2x.png",
+        "Tooltip": "Add, select, and apply materials",
+        "Uri": {
+            "PluginId": "MaterialManager",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Material Generator",
+        "Icon": "rbxasset://studio_svg_textures/Shared/WidgetIcons/{Theme}/Large/MaterialGenerator@2x.png",
+        "Tooltip": "Create AI generated materials through a text prompt",
+        "Uri": {
+            "PluginId": "MaterialGenerator",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Avatar Settings",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonAvatarSettings@2x.png",
+        "Tooltip": "Update player avatar settings for this experience",
+        "Uri": {
+            "PluginId": "AvatarSettings",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Accessory",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonAccessory@2x.png",
+        "Tooltip": "Edit and review cage mesh for clothing and accessories",
+        "Uri": {
+            "PluginId": "AccessoryFittingTool",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Layered",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonLayered@2x.png",
+        "Tooltip": "Select one or multiple Models to convert into accessories",
+        "Uri": {
+            "PluginId": "AccessoryFittingTool",
+            "DataModel": "Standalone",
+            "ItemId": "Create",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Animation",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonAnimation@2x.png",
+        "Tooltip": "Create, preview, and publish animation clips",
+        "Uri": {
+            "PluginId": "AnimationEditor",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Import Roblox Model",
+        "Tooltip": "Import Roblox Model",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "InsertFromFile",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Redo",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Clipboard/{Theme}/Standard/Redo@2x.png",
+        "Tooltip": "Redo (Ctrl+Y, Alt+Shift+Backspace, Ctrl+Shift+Z)",
+        "Uri": {
+            "PluginId": "Common",
+            "DataModel": "Standalone",
+            "ItemId": "Redo",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Open from File",
+        "Icon": "rbxasset://studio_svg_textures/Lua/FileSync/{Theme}/Standard/Open@2x.png",
+        "Tooltip": "Open an existing local file",
+        "Uri": {
+            "PluginId": "PlaceManagement",
+            "DataModel": "Standalone",
+            "ItemId": "OpenFromFile",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Undo",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Clipboard/{Theme}/Standard/Undo@2x.png",
+        "Uri": {
+            "PluginId": "Common",
+            "DataModel": "Standalone",
+            "ItemId": "Undo",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Delete",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonDeleteSmall@2x.png",
+        "Tooltip": "Delete",
+        "Uri": {
+            "PluginId": "Common",
+            "DataModel": "Standalone",
+            "ItemId": "Delete",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Zoom In",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Navigation/{Theme}/Standard/ZoomIn@2x.png",
+        "Tooltip": "Zoom In",
+        "Uri": {
+            "PluginId": "Camera",
+            "DataModel": "Standalone",
+            "ItemId": "ZoomIn",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Select All",
+        "Tooltip": "Select All",
+        "Uri": {
+            "PluginId": "Common",
+            "DataModel": "Standalone",
+            "ItemId": "SelectAll",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "ParticleEmitter",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonEffect_ParticleEmitter@2x.png",
+        "Tooltip": "ParticleEmitter",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ParticleEmitter",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Zoom Out",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Navigation/{Theme}/Standard/ZoomOut@2x.png",
+        "Tooltip": "Zoom Out",
+        "Uri": {
+            "PluginId": "Camera",
+            "DataModel": "Standalone",
+            "ItemId": "ZoomOut",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Tilt Up",
+        "Tooltip": "Tilt Up",
+        "Uri": {
+            "PluginId": "Camera",
+            "DataModel": "Standalone",
+            "ItemId": "TiltUp",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Copy",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Clipboard/{Theme}/Standard/Copy@2x.png",
+        "Tooltip": "Copy selected text",
+        "Uri": {
+            "PluginId": "Common",
+            "DataModel": "Standalone",
+            "ItemId": "Copy",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Tilt Down",
+        "Tooltip": "Tilt Down",
+        "Uri": {
+            "PluginId": "Camera",
+            "DataModel": "Standalone",
+            "ItemId": "TiltDown",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Pan Left",
+        "Tooltip": "Pan Left",
+        "Uri": {
+            "PluginId": "Camera",
+            "DataModel": "Standalone",
+            "ItemId": "PanLeft",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Open",
+        "Tooltip": "Open selected script",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "Open",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Plane",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonPlaneConstraint@2x.png",
+        "Tooltip": "Create plane constraint",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ConstraintPlane",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Insert Object",
+        "Icon": "rbxasset://studio_svg_textures/Shared/WidgetIcons/{Theme}/Standard/InsertObject@2x.png",
+        "Tooltip": "View list of insertable objects",
+        "Uri": {
+            "PluginId": "InsertObject",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "View Script History",
+        "Tooltip": "View Script History",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "OpenScriptHistory",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Clear",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonDeleteSmall@2x.png",
+        "Tooltip": "Clear",
+        "Uri": {
+            "PluginId": "Statistics",
+            "DataModel": "Standalone",
+            "ItemId": "Clear",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "View History",
+        "Tooltip": "View History",
+        "Uri": {
+            "PluginId": "VersionControl",
+            "DataModel": "Standalone",
+            "ItemId": "OpenPlaceHistory",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Convert to Package",
+        "Tooltip": "Convert to Package...",
+        "Uri": {
+            "PluginId": "PackageTools",
+            "DataModel": "Standalone",
+            "ItemId": "ConvertToPackage",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Cut",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Clipboard/{Theme}/Standard/Cut@2x.png",
+        "Tooltip": "Cut selected text",
+        "Uri": {
+            "PluginId": "Common",
+            "DataModel": "Standalone",
+            "ItemId": "Cut",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Paste at Original Location",
+        "Tooltip": "Paste at Original Location",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "PasteAtOriginalLocation",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Physics",
+        "Tooltip": "Physics",
+        "Uri": {
+            "PluginId": "Statistics",
+            "DataModel": "Standalone",
+            "ItemId": "Physics",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Ungroup",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonGroup@2x.png",
+        "Tooltip": "Ungroup the model into the original parts",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Ungroup",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Drafts",
+        "Icon": "rbxasset://studio_svg_textures/Shared/WidgetIcons/{Theme}/Standard/Draft@2x.png",
+        "Tooltip": "View Drafts",
+        "Uri": {
+            "PluginId": "ScriptDrafts",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Manage Plugins",
+        "Icon": "rbxasset://studio_svg_textures/Shared/WidgetIcons/{Theme}/Standard/ManagePlugins@2x.png",
+        "Tooltip": "Manage installed plugins",
+        "Uri": {
+            "PluginId": "PluginManagement",
+            "DataModel": "Standalone",
+            "ItemId": "ManageCloudPlugins",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Show Services...",
+        "Tooltip": "Show Services",
+        "Uri": {
+            "PluginId": "InsertService",
+            "DataModel": "Standalone",
+            "ItemId": "ShowServices",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Test",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonPlaySmall@2x.png",
+        "Tooltip": "Start simulation with a player at a SpawnLocation or coordinates of around (0, 100, 0)",
+        "Uri": {
+            "PluginId": "RunTools",
+            "DataModel": "Standalone",
+            "ItemId": "Play",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Stats",
+        "Tooltip": "Render Stats",
+        "Uri": {
+            "PluginId": "Statistics",
+            "DataModel": "Standalone",
+            "ItemId": "General",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Render",
+        "Tooltip": "Render",
+        "Uri": {
+            "PluginId": "Statistics",
+            "DataModel": "Standalone",
+            "ItemId": "Render",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Collision Groups",
+        "Icon": "rbxasset://studio_svg_textures/Shared/WidgetIcons/{Theme}/Standard/CollisionGroups@2x.png",
+        "Tooltip": "Edit collision groups",
+        "Uri": {
+            "PluginId": "CollisionGroupsEditor",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Network Summary",
+        "Tooltip": "Network Summary",
+        "Uri": {
+            "PluginId": "Statistics",
+            "DataModel": "Standalone",
+            "ItemId": "Network",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Add Clients",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonAddClientSmall@2x.png",
+        "Tooltip": "Add clients to the current session",
+        "Uri": {
+            "PluginId": "RunTools",
+            "DataModel": "Standalone",
+            "ItemId": "AddClients",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Save to File",
+        "Tooltip": "Save the active local file",
+        "Uri": {
+            "PluginId": "PlaceManagement",
+            "DataModel": "Standalone",
+            "ItemId": "SaveToFile",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Run Script",
+        "Icon": "rbxasset://studio_svg_textures/Shared/WidgetIcons/{Theme}/Standard/RunScript@2x.png",
+        "Tooltip": "Execute Lua code from a file",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "RunScript",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Save to File As",
+        "Tooltip": "Save the active local file with a new name",
+        "Uri": {
+            "PluginId": "PlaceManagement",
+            "DataModel": "Standalone",
+            "ItemId": "SaveToFileAs",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "New",
+        "Tooltip": "New",
+        "Uri": {
+            "PluginId": "PlaceManagement",
+            "DataModel": "Standalone",
+            "ItemId": "New",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Update All",
+        "Tooltip": "Update All",
+        "Uri": {
+            "PluginId": "PackageTools",
+            "DataModel": "Standalone",
+            "ItemId": "MassUpdate",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Zoom to",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Navigation/{Theme}/Standard/ZoomTo@2x.png",
+        "Tooltip": "Zoom to",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "ZoomExtents",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Game Settings",
+        "Tooltip": "Update settings related to current game",
+        "Uri": {
+            "PluginId": "GameSettings",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Paste into at Original Location",
+        "Tooltip": "Paste into at Original Location",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "PasteIntoAtOriginalLocation",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Open Previous Tab",
+        "Tooltip": "Open Previous Tab",
+        "Uri": {
+            "PluginId": "PlaceManagement",
+            "DataModel": "Standalone",
+            "ItemId": "OpenPreviousTab",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Save as CSV...",
+        "Tooltip": "Save LocalizationTable to CSV file...",
+        "Uri": {
+            "PluginId": "LocalizationTools",
+            "DataModel": "Standalone",
+            "ItemId": "SaveCsv",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Load from CSV...",
+        "Tooltip": "Load LocalizationTable from CSV file...",
+        "Uri": {
+            "PluginId": "LocalizationTools",
+            "DataModel": "Standalone",
+            "ItemId": "LoadCsv",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Save to File...",
+        "Tooltip": "Save selection to file...",
+        "Uri": {
+            "PluginId": "Export",
+            "DataModel": "Standalone",
+            "ItemId": "SaveSelectionToFile",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Save to Roblox As",
+        "Tooltip": "Save active document to Roblox as",
+        "Uri": {
+            "PluginId": "PlaceManagement",
+            "DataModel": "Standalone",
+            "ItemId": "SaveToRobloxAs",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "About Roblox Studio",
+        "Tooltip": "About Roblox Studio",
+        "Uri": {
+            "PluginId": "Help",
+            "DataModel": "Standalone",
+            "ItemId": "Open/AboutStudio",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Object Browser",
+        "Icon": "rbxasset://studio_svg_textures/Shared/WidgetIcons/{Theme}/Standard/ObjectBrowser@2x.png",
+        "Tooltip": "View Lua API objects that can be accessed through scripting",
+        "Uri": {
+            "PluginId": "ObjectBrowser",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Studio Settings",
+        "Tooltip": "Studio Settings",
+        "Uri": {
+            "PluginId": "AppConfiguration",
+            "DataModel": "Standalone",
+            "ItemId": "Settings",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Open from Roblox",
+        "Icon": "rbxasset://studio_svg_textures/Lua/FileSync/{Theme}/Standard/Open@2x.png",
+        "Tooltip": "Open a recent Game from Roblox",
+        "Uri": {
+            "PluginId": "PlaceManagement",
+            "DataModel": "Standalone",
+            "ItemId": "OpenFromRoblox",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Save and Reload Plugin",
+        "Tooltip": "Save and Reload Plugin",
+        "Uri": {
+            "PluginId": "PluginDebugging",
+            "DataModel": "Standalone",
+            "ItemId": "SaveAndReloadDebuggablePlugin",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Build Plugin from Source and Reload in the Debugger",
+        "Tooltip": "Build Plugin from Source and Reload in the Debugger",
+        "Uri": {
+            "PluginId": "PluginDebugging",
+            "DataModel": "Standalone",
+            "ItemId": "SaveBuildAndReloadDebuggablePlugin",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Reset Default Instance",
+        "Tooltip": "Reset Default Instance",
+        "Uri": {
+            "PluginId": "CustomizedDefaults",
+            "DataModel": "Standalone",
+            "ItemId": "ResetDefault",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Reload Plugin",
+        "Tooltip": "Reload Plugin",
+        "Uri": {
+            "PluginId": "PluginDebugging",
+            "DataModel": "Standalone",
+            "ItemId": "ReloadDebuggablePlugin",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "View Script Changes...",
+        "Tooltip": "View Script Changes",
+        "Uri": {
+            "PluginId": "PackageTools",
+            "DataModel": "Standalone",
+            "ItemId": "DiffPackageAgainstLatest",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Package Details",
+        "Tooltip": "Package Details",
+        "Uri": {
+            "PluginId": "PackageTools",
+            "DataModel": "Standalone",
+            "ItemId": "PackageDetails",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Replace",
+        "Tooltip": "Find text and replace with...",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "Replace",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Save to Roblox...",
+        "Tooltip": "Publish the Selection to Roblox",
+        "Uri": {
+            "PluginId": "Export",
+            "DataModel": "Standalone",
+            "ItemId": "PublishSelectionToRoblox",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Style Editor",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonStyleEditor@2x.png",
+        "Tooltip": "Create, remove, and modify styles",
+        "Uri": {
+            "PluginId": "StyleEditor",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Show UI",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonWatch@2x.png",
+        "Tooltip": "Toggles visibility of UI in the 3D View",
+        "Uri": {
+            "PluginId": "UIVisibility",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Outlines",
+        "Tooltip": "Sets selection rendering mode to outlines",
+        "Uri": {
+            "PluginId": "SelectionRenderModes",
+            "DataModel": "Standalone",
+            "ItemId": "ViewOutlines",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Bounding Boxes",
+        "Tooltip": "Sets selection rendering mode to bounding boxes",
+        "Uri": {
+            "PluginId": "SelectionRenderModes",
+            "DataModel": "Standalone",
+            "ItemId": "ViewBoundingBoxes",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Video Record",
+        "Icon": "rbxasset://textures/ui/RecordDown.png",
+        "Tooltip": "Record a video",
+        "Uri": {
+            "PluginId": "VideoRecord",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Performance Diagnostics",
+        "Icon": "rbxasset://studio_svg_textures/Shared/WidgetIcons/{Theme}/Standard/Performance@2x.png",
+        "Tooltip": "View diagnostic information for your experience",
+        "Uri": {
+            "PluginId": "Diagnostics",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Hinge",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonHingeConstraint@2x.png",
+        "Tooltip": "Create hinge",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ConstraintHinge",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Task Scheduler",
+        "Tooltip": "View task execution information",
+        "Uri": {
+            "PluginId": "TaskScheduler",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Script Activity",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonPerformance@2x.png",
+        "Tooltip": "View activity and run rate for your scripts",
+        "Uri": {
+            "PluginId": "Performance",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Get Latest Package",
+        "Tooltip": "Get Latest Package",
+        "Uri": {
+            "PluginId": "PackageTools",
+            "DataModel": "Standalone",
+            "ItemId": "GetLatestPackage",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Full Screen",
+        "Tooltip": "Enabled Full Screen mode",
+        "Uri": {
+            "PluginId": "WindowManagement",
+            "DataModel": "Standalone",
+            "ItemId": "FullScreen",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "ImageLabel",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonImageLabel@2x.png",
+        "Tooltip": "Specifies the asset id of the texture to display",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ImageLabel",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Find Previous",
+        "Tooltip": "Find previous item",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "FindPrevious",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Rename",
+        "Tooltip": "Renames selected object",
+        "Uri": {
+            "PluginId": "Explorer",
+            "DataModel": "Standalone",
+            "ItemId": "Rename",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Separate",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonSeparateOperation@2x.png",
+        "Tooltip": "Separate parts from a fused or intersected selection",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "SeparateSelection",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Screenshot",
+        "Tooltip": "Take a screenshot",
+        "Uri": {
+            "PluginId": "Common",
+            "DataModel": "Standalone",
+            "ItemId": "ScreenShot",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Publish to Roblox As",
+        "Tooltip": "Publish active document to Roblox as",
+        "Uri": {
+            "PluginId": "PlaceManagement",
+            "DataModel": "Standalone",
+            "ItemId": "PublishToRobloxAs",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Select Parent(s)",
+        "Tooltip": "Select Parent(s)",
+        "Uri": {
+            "PluginId": "Common",
+            "DataModel": "Standalone",
+            "ItemId": "SelectParents",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Select Children",
+        "Tooltip": "Select Children",
+        "Uri": {
+            "PluginId": "Common",
+            "DataModel": "Standalone",
+            "ItemId": "SelectChildren",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Expand All",
+        "Tooltip": "Expand All",
+        "Uri": {
+            "PluginId": "Explorer",
+            "DataModel": "Standalone",
+            "ItemId": "ExpandAll",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Collapse All",
+        "Tooltip": "Collapse All",
+        "Uri": {
+            "PluginId": "Explorer",
+            "DataModel": "Standalone",
+            "ItemId": "CollapseAll",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Show Orientation Indicator",
+        "Tooltip": "Display surface direction information for objects",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "ShowOrientationIndicator",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Reset Layout",
+        "Tooltip": "Reset Widget and Toolbar position",
+        "Uri": {
+            "PluginId": "View",
+            "DataModel": "Standalone",
+            "ItemId": "ResetLayout",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "4 Studs",
+        "Tooltip": "Set Grid Size to 4 Studs",
+        "Uri": {
+            "PluginId": "3DGrid",
+            "DataModel": "Standalone",
+            "ItemId": "SetGridSizeToFour",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "16 Studs",
+        "Tooltip": "Set Grid Size to 16 Studs",
+        "Uri": {
+            "PluginId": "3DGrid",
+            "DataModel": "Standalone",
+            "ItemId": "SetGridSizeToSixteen",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Previous",
+        "Tooltip": "Go to previous change",
+        "Uri": {
+            "PluginId": "VersionControl",
+            "DataModel": "Standalone",
+            "ItemId": "GoToPreviousHunk",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Next",
+        "Tooltip": "Go to next change",
+        "Uri": {
+            "PluginId": "VersionControl",
+            "DataModel": "Standalone",
+            "ItemId": "GoToNextHunk",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Enable Scripts",
+        "Tooltip": "Enable all Script and LocalScript instances",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "ToggleScripts",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Export as .obj",
+        "Tooltip": "Export as .obj",
+        "Uri": {
+            "PluginId": "PlaceManagement",
+            "DataModel": "Standalone",
+            "ItemId": "ExportAsObjFile",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Intersect",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonIntersectOperation@2x.png",
+        "Tooltip": "Replace parts with only the area where they overlap",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "IntersectSelection",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Negate",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonNegateOperation@2x.png",
+        "Tooltip": "Negate parts for making holes",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "NegateSelection",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "End Session",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonExitTestSessionSmall@2x.png",
+        "Tooltip": "Close server and all client windows",
+        "Uri": {
+            "PluginId": "RunTools",
+            "DataModel": "Standalone",
+            "ItemId": "CleanupServerAndClients",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Exit Client",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonExitGameSmall@2x.png",
+        "Tooltip": "Exit client window",
+        "Uri": {
+            "PluginId": "RunTools",
+            "DataModel": "Standalone",
+            "ItemId": "ExitClient",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Exit Team Test",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonExitGameSmall@2x.png",
+        "Tooltip": "Exit client window",
+        "Uri": {
+            "PluginId": "RunTools",
+            "DataModel": "Standalone",
+            "ItemId": "CleanupTeamTest",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Torsion Spring",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonTorsionConstraint@2x.png",
+        "Tooltip": "Create torsion spring constraint",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ConstraintTorsionSpring",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Mute",
+        "Tooltip": "Toggle Game Audio Sounds",
+        "Uri": {
+            "PluginId": "AppConfiguration",
+            "DataModel": "Standalone",
+            "ItemId": "ToggleAudio",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Analysis",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonAnalysis@2x.png",
+        "Tooltip": "View active errors and warnings in scripts",
+        "Uri": {
+            "PluginId": "Analysis",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "TextLabel",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonTextLabel@2x.png",
+        "Tooltip": "A GUI object containing text",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/TextLabel",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Command Bar",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonCommand@2x.png",
+        "Tooltip": "Run commands in the Studio IDE",
+        "Uri": {
+            "PluginId": "CommandBar",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Open Auto Saves",
+        "Icon": "rbxasset://studio_svg_textures/Lua/FileSync/{Theme}/Standard/Open@2x.png",
+        "Tooltip": "Open Auto Saves Folder",
+        "Uri": {
+            "PluginId": "PlaceManagement",
+            "DataModel": "Standalone",
+            "ItemId": "OpenAutoSavesFolder",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Test Here",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonPlayHereSmall@2x.png",
+        "Tooltip": "Start the simulation at the camera's current position",
+        "Uri": {
+            "PluginId": "RunTools",
+            "DataModel": "Standalone",
+            "ItemId": "PlayHere",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Show Constraint on Top",
+        "Tooltip": "Draw constraints, attachments and welds on top",
+        "Uri": {
+            "PluginId": "Constraints",
+            "DataModel": "Standalone",
+            "ItemId": "DEPRECATED_DrawOnTop",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Pause Scripts",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonPauseSmall@2x.png",
+        "Tooltip": "Pause Scripts",
+        "Uri": {
+            "PluginId": "RunTools",
+            "DataModel": "Standalone",
+            "ItemId": "Pause",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Controller Emulator",
+        "Tooltip": "Controller Emulator",
+        "Uri": {
+            "PluginId": "ControlsEmulator",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Team Test",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonTeamTestSmall@2x.png",
+        "Tooltip": "Collaborators can join the simulation",
+        "Uri": {
+            "PluginId": "RunTools",
+            "DataModel": "Standalone",
+            "ItemId": "TeamTest",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Player Emulator",
+        "Icon": "rbxasset://textures/StudioPlayerEmulator/player_emulator_32.png",
+        "Tooltip": "Player Emulator",
+        "Uri": {
+            "PluginId": "PlayerEmulation",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Fwd",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Navigation/{Theme}/Standard/Fwd@2x.png",
+        "Tooltip": "Jump to next script location",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "Forward",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Clear selection",
+        "Tooltip": "Clear the current selection",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "ClearSelection",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Tag Editor",
+        "Icon": "rbxasset://studio_svg_textures/Shared/WidgetIcons/{Theme}/Standard/TagEditor@2x.png",
+        "Tooltip": "Create and manage groupings of instances.",
+        "Uri": {
+            "PluginId": "TagEditor",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Scene Monitor",
+        "Tooltip": "View triangle and draw call counts for the current camera view",
+        "Uri": {
+            "PluginId": "SceneMonitor",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "TextBox",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonTextBox@2x.png",
+        "Tooltip": "A text entry box",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/TextBox",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Explain Code",
+        "Tooltip": "Ask our AI Assistant to explain your selected code",
+        "Uri": {
+            "PluginId": "AssistantPlugin",
+            "DataModel": "Standalone",
+            "ItemId": "MCPExplainCode",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Compare Package Versions",
+        "Tooltip": "Compare Package Versions",
+        "Uri": {
+            "PluginId": "PackageTools",
+            "DataModel": "Standalone",
+            "ItemId": "ShowPackagesDiff",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Undo Changes to Package",
+        "Tooltip": "Undo Changes to Package",
+        "Uri": {
+            "PluginId": "PackageTools",
+            "DataModel": "Standalone",
+            "ItemId": "UndoPackageChanges",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Save/unsave command",
+        "Tooltip": "Save / unsave the current command in the command bar",
+        "Uri": {
+            "PluginId": "CommandBar",
+            "DataModel": "Standalone",
+            "ItemId": "Save",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Spawn",
+        "Tooltip": "Click here to add a spawn point into your game",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/SpawnLocation",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Bone",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonBone@2x.png",
+        "Tooltip": "Insert bone",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/Bone",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Rigid Constraint",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonRigidConstraint@2x.png",
+        "Tooltip": "Create rigid constraint",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ConstraintRigid",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Cylindrical",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonCylindricalConstraint@2x.png",
+        "Tooltip": "Create cylindrical constraint",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ConstraintCylindrical",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Rope",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonRopeConstraint@2x.png",
+        "Tooltip": "Create rope constraint",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ConstraintRope",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Rod",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonRodConstraint@2x.png",
+        "Tooltip": "Create rod constraint",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ConstraintRod",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Spring",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonSpringConstraint@2x.png",
+        "Tooltip": "Create spring constraint",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ConstraintSpring",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Weld",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonWeldConstraint@2x.png",
+        "Tooltip": "Create weld constraint",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ConstraintWeld",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "No Collision",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonNoCollisionConstraint@2x.png",
+        "Tooltip": "Create a no collision constraint",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ConstraintNoCollision",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Align Position",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonAlignPosition@2x.png",
+        "Tooltip": "Create align position",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ConstraintAlignPosition",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Vector Force",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonVectorForce@2x.png",
+        "Tooltip": "Create vector force",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ConstraintVectorForce",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Line Force",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonLineForce@2x.png",
+        "Tooltip": "Create line force",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ConstraintLineForce",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "MicroProfiler",
+        "Tooltip": "Performance optimization and troubleshooting tool that provides detailed timing information for task scheduler tasks",
+        "Uri": {
+            "PluginId": "Microprofiler",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Angular Velocity",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonAngularVelocity@2x.png",
+        "Tooltip": "Create angular velocity constraint",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ConstraintAngularVelocity",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Linear Velocity",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonLinearVelocity@2x.png",
+        "Tooltip": "Create linear velocity constraint",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ConstraintLinearVelocity",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Attachment",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonAttachment@2x.png",
+        "Tooltip": "Insert attachment",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ConstraintAttachment",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Fire",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonEffect_Fire@2x.png",
+        "Tooltip": "Fire",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/Fire",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Smoke",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonEffect_Smoke@2x.png",
+        "Tooltip": "Smoke",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/Smoke",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Trail",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonEffect_Trail@2x.png",
+        "Tooltip": "Trail",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/Trail",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Sparkles",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonEffect_Sparkles@2x.png",
+        "Tooltip": "Sparkles",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/Sparkles",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "SpotLight",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonEffect_SpotLight@2x.png",
+        "Tooltip": "SpotLight",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/SpotLight",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Quick Open Actions",
+        "Tooltip": "Quick Open Actions",
+        "Uri": {
+            "PluginId": "QuickOpenActions",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Frame",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonFrame@2x.png",
+        "Tooltip": "A container object used to layout other GUI objects",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/Frame",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "ScrollingFrame",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonScrollingFrame@2x.png",
+        "Tooltip": "A container object used to layout other GUI objects, and allows for scrolling",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ScrollingFrame",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "TextButton",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonTextButton@2x.png",
+        "Tooltip": "A GUI button containing text",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/TextButton",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "ImageButton",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonImageButton@2x.png",
+        "Tooltip": "A GUI button containing an Image",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ImageButton",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "CanvasGroup",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonCanvasGroup@2x.png",
+        "Tooltip": "CanvasGroup",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/CanvasGroup",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "UIListLayout",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonUIListLayout@2x.png",
+        "Tooltip": "UIListLayout",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/UIListLayout",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "VideoFrame",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonVideoFrame@2x.png",
+        "Tooltip": "VideoFrame",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/VideoFrame",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "ViewportFrame",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonViewportFrame@2x.png",
+        "Tooltip": "ViewportFrame",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ViewportFrame",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "UIGradient",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonUIGradient@2x.png",
+        "Tooltip": "UIGradient",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/UIGradient",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "UIStroke",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonUIStroke@2x.png",
+        "Tooltip": "UIStroke",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/UIStroke",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "UIPageLayout",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonUIPageLayout@2x.png",
+        "Tooltip": "UIPageLayout",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/UIPageLayout",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "UITableLayout",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonUITableLayout@2x.png",
+        "Tooltip": "UITableLayout",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/UITableLayout",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "UIScale",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonUIScale@2x.png",
+        "Tooltip": "UIScale",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/UIScale",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "UISizeConstraint",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonUISizeConstraint@2x.png",
+        "Tooltip": "UISizeConstraint",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/UISizeConstraint",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "UITextSizeConstraint",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonUITextSizeConstraint@2x.png",
+        "Tooltip": "UITextSizeConstraint",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/UITextSizeConstraint",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Highlight",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonEffect_Highlight@2x.png",
+        "Tooltip": "Highlight",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/Highlight",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Documentation",
+        "Tooltip": "Documentation",
+        "Uri": {
+            "PluginId": "Help",
+            "DataModel": "Standalone",
+            "ItemId": "Open/Documentation",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Developer Forum",
+        "Tooltip": "Developer Forum",
+        "Uri": {
+            "PluginId": "Help",
+            "DataModel": "Standalone",
+            "ItemId": "Open/DeveloperForum",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Localization Tools",
+        "Icon": "rbxasset://studio_svg_textures/Shared/WidgetIcons/{Theme}/Large/LocalizationTools@2x.png",
+        "Tooltip": "Localization Tools",
+        "Uri": {
+            "PluginId": "LocalizationTools",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Start Studio Tour",
+        "Tooltip": "Start Studio Tour",
+        "Uri": {
+            "PluginId": "Help",
+            "DataModel": "Standalone",
+            "ItemId": "StudioTour",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Find All",
+        "Tooltip": "Find All",
+        "Uri": {
+            "PluginId": "Edit",
+            "DataModel": "Standalone",
+            "ItemId": "FindAll",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Replace All",
+        "Tooltip": "Replace All",
+        "Uri": {
+            "PluginId": "Edit",
+            "DataModel": "Standalone",
+            "ItemId": "ReplaceAll",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Ask Assistant",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonAI@2x.png",
+        "Tooltip": "View Assistant",
+        "Uri": {
+            "PluginId": "Assistant",
+            "DataModel": "Standalone",
+            "ItemId": "FocusAssistant",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Quick Open",
+        "Tooltip": "Quick Open",
+        "Uri": {
+            "PluginId": "QuickOpen",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    }
+]

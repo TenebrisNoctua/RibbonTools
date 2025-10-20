@@ -208,12 +208,49 @@
             "Type": "Separator"
         },
 		{
-			"Type": "Column",
+            "Type": "Column",
             "Children": [
+                {
+                    "Size": "Small",
+                    "Action": {
+                        "ItemId": "NeverBreakOnErrors",
+                        "Category": "Actions",
+                        "DataModel": "Standalone",
+                        "PluginId": "Breakpoints"
+                    },
+                    "Type": "Button",
+                    "Id": "NeverBreakOnErrors"
+                },
+                {
+                    "Size": "Small",
+                    "Action": {
+                        "ItemId": "BreakOnAllErrors",
+                        "Category": "Actions",
+                        "DataModel": "Standalone",
+                        "PluginId": "Breakpoints"
+                    },
+                    "Type": "Button",
+                    "Id": "BreakOnAllErrors"
+                }
+            ]
+        },
+		{
+			"Type": "Column",
+			"Children": [
+				{
+                    "Size": "Small",
+                    "Action": {
+                        "ItemId": "BreakOnUnhandledErrors",
+                        "Category": "Actions",
+                        "DataModel": "Standalone",
+                        "PluginId": "Breakpoints"
+                    },
+                    "Type": "Button",
+                    "Id": "BreakOnUnhandledErrors"
+                },
 				{
 					"Id": "3f0154f7-b8e6-4ce6-b204-24b0e76c65d0",
 					"Type": "Button",
-					"TextOnly": true,
 					"Size": "Small",
 					"Action": {
 						"PluginId": "ScriptTools",
@@ -221,11 +258,19 @@
 						"ItemId": "ToggleComment",
 						"Category": "Actions"
 					}
-				},
+				}
+			]
+		},
+		{
+            "Size": "Large",
+            "Type": "Separator"
+        },
+		{
+			"Type": "Column",
+            "Children": [
 				{
 					"Id": "9edbd47d-bfa8-47c6-a125-1ffe53a9b2ae",
 					"Type": "Button",
-					"TextOnly": true,
 					"Size": "Small",
 					"Action": {
 						"PluginId": "ScriptTools",
@@ -234,15 +279,9 @@
 						"ItemId": "UnfoldDocument"
 					}
 				},
-            ]
-        },
-		{
-			"Type": "Column",
-			"Children": [
 				{
 					"Id": "f205537d-6b0d-45cb-a3b1-c741ec0000bd",
 					"Type": "Button",
-					"TextOnly": true,
 					"Size": "Small",
 					"Action": {
 						"PluginId": "ScriptTools",
@@ -251,7 +290,7 @@
 						"Category": "Actions"
 					}
 				}
-			]
-		}
+            ]
+        }
     ]
 }
