@@ -214,7 +214,7 @@
     },
     {
         "Text": "Invite Collaborators",
-        "Icon": "rbxasset://studio_svg_textures/Shared/WidgetIcons/{Theme}/Standard/AddCollaborator@2x.png",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/AddCollaborator@3x.png",
         "Tooltip": "Share your project and start building together",
         "Uri": {
             "PluginId": "ManageCollaborators",
@@ -416,7 +416,7 @@
     },
     {
         "Text": "Resume Scripts",
-        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonResumeScriptsSmall@2x.png",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonResumeScriptsSmall@3x.png",
         "Tooltip": "Resume scripts and simulation",
         "Uri": {
             "PluginId": "RunTools",
@@ -1289,7 +1289,7 @@
     },
     {
         "Text": "Explosion",
-        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonExplosion@2x.png",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonEffect_Explosion@2x.png",
         "Tooltip": "Explosion",
         "Uri": {
             "PluginId": "BuilderTools",
@@ -2522,7 +2522,7 @@
     },
     {
         "Text": "Torsion Spring",
-        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonTorsionConstraint@2x.png",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonTorsionSpringConstraint@2x.png",
         "Tooltip": "Create torsion spring constraint",
         "Uri": {
             "PluginId": "BuilderTools",
