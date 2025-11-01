@@ -152,8 +152,26 @@
             "Size": "Large",
             "Type": "Separator"
         },
+        {
+            "Id": "ExitClient_ServerAndClients",
+            "Type": "IconButton",
+            "Action": {
+                "Category": "Actions",
+                "DataModel": "Standalone",
+                "ItemId": "ExitClient",
+                "PluginId": "RunTools"
+            },
+            "TextKey": "Exit"
+        },
 		{
-			"Type": "Column",
+			"Id": "AddClients_ServerAndClients",
+			"Type": "SplitButton",
+			"Setting": {
+				"Category": "Settings",
+				"DataModel": "Standalone",
+				"ItemId": "AddClients",
+				"PluginId": "RunTools"
+			},
 			"Children": [
 				{
 					"Type": "Row",
@@ -161,44 +179,60 @@
 						{
 							"Id": "AddPlayer_ServerAndClients",
 							"Type": "Spinbox",
+							"IsShort": true,
 							"Setting": {
-								"PluginId": "RunTools",
-								"DataModel": "Standalone",
 								"Category": "Settings",
-								"ItemId": "AddPlayer"
-							},
-							"Size": "Small"
+								"DataModel": "Standalone",
+								"ItemId": "AddPlayer",
+								"PluginId": "RunTools"
+							}
 						},
 						{
-							"Type": "Button",
-							"TextKey": "Add",
-							"Style": "Primary",
 							"Id": "AddClients_ServerAndClients",
-							"TextOnly": true,
+							"Type": "Button",
 							"Action": {
-								"PluginId": "RunTools",
-								"DataModel": "Standalone",
 								"Category": "Actions",
-								"ItemId": "AddClients"
+								"DataModel": "Standalone",
+								"ItemId": "AddClients",
+								"PluginId": "RunTools"
 							},
-							"Size": "Small"
+							"Style": "Primary",
+							"TextOnly": true,
+							"TextKey": "Add"
 						}
 					]
+				}
+			],
+			"IconOnly": true,
+			"Size": "Small"
+		},
+		{
+			"Type": "Column",
+			"Children": [
+				{
+					"Id": "LaunchPlayersMode_ServerAndClients",
+					"Type": "Spinbox",
+					"Setting": {
+						"Category": "Settings",
+						"DataModel": "Standalone",
+						"ItemId": "PlayersMode",
+						"PluginId": "RunTools"
+					}
 				},
 				{
-					"Id": "63e634df-4d8f-4fd9-b67d-34dbfb0dabeb",
-					"Type": "Button",
-					"Size": "Small",
-					"Action": {
+					"Id": "AddPlayer_ServerAndClients",
+					"Type": "Spinbox",
+					"Setting": {
 						"PluginId": "RunTools",
 						"DataModel": "Standalone",
-						"ItemId": "ExitClient",
-						"Category": "Actions"
-					}
+						"Category": "Settings",
+						"ItemId": "AddPlayer"
+					},
+					"Size": "Small"
 				}
 			]
 		},
-		{
+        {
             "Size": "Large",
             "Type": "Separator"
         },
