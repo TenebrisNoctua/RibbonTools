@@ -212,6 +212,7 @@
             "Children": [
                 {
                     "Size": "Small",
+					"TextOnly": true,
                     "Action": {
                         "ItemId": "NeverBreakOnErrors",
                         "Category": "Actions",
@@ -223,6 +224,7 @@
                 },
                 {
                     "Size": "Small",
+					"TextOnly": true,
                     "Action": {
                         "ItemId": "BreakOnAllErrors",
                         "Category": "Actions",
@@ -239,6 +241,7 @@
 			"Children": [
 				{
                     "Size": "Small",
+					"TextOnly": true,
                     "Action": {
                         "ItemId": "BreakOnUnhandledErrors",
                         "Category": "Actions",
@@ -252,10 +255,11 @@
 					"Id": "3f0154f7-b8e6-4ce6-b204-24b0e76c65d0",
 					"Type": "Button",
 					"Size": "Small",
+					"TextOnly": true,
 					"Action": {
 						"PluginId": "ScriptTools",
 						"DataModel": "Standalone",
-						"ItemId": "ToggleComment",
+						"ItemId": "ReloadScript",
 						"Category": "Actions"
 					}
 				}
@@ -272,6 +276,7 @@
 					"Id": "9edbd47d-bfa8-47c6-a125-1ffe53a9b2ae",
 					"Type": "Button",
 					"Size": "Small",
+					"TextOnly": true,
 					"Action": {
 						"PluginId": "ScriptTools",
 						"DataModel": "Standalone",
@@ -283,6 +288,7 @@
 					"Id": "f205537d-6b0d-45cb-a3b1-c741ec0000bd",
 					"Type": "Button",
 					"Size": "Small",
+					"TextOnly": true,
 					"Action": {
 						"PluginId": "ScriptTools",
 						"DataModel": "Standalone",
@@ -291,6 +297,23 @@
 					}
 				}
             ]
-        }
+        },
+		{
+			"Type": "Column",
+			"Children": [
+				{
+					"Id": "3f0154f7-b8e6-4ce6-b204-24b0e76c65d0",
+					"Type": "Button",
+					"Size": "Small",
+					"TextOnly": true,
+					"Action": {
+						"PluginId": "ScriptTools",
+						"DataModel": "Standalone",
+						"ItemId": "ToggleComment",
+						"Category": "Actions"
+					}
+				}
+			]
+		}
     ]
 }

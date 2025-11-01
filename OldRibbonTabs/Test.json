@@ -152,6 +152,56 @@
             "Size": "Large",
             "Type": "Separator"
         },
+		{
+			"Type": "Column",
+			"Children": [
+				{
+					"Type": "Row",
+					"Children": [
+						{
+							"Id": "AddPlayer_ServerAndClients",
+							"Type": "Spinbox",
+							"Setting": {
+								"PluginId": "RunTools",
+								"DataModel": "Standalone",
+								"Category": "Settings",
+								"ItemId": "AddPlayer"
+							},
+							"Size": "Small"
+						},
+						{
+							"Type": "Button",
+							"TextKey": "Add",
+							"Style": "Primary",
+							"Id": "AddClients_ServerAndClients",
+							"TextOnly": true,
+							"Action": {
+								"PluginId": "RunTools",
+								"DataModel": "Standalone",
+								"Category": "Actions",
+								"ItemId": "AddClients"
+							},
+							"Size": "Small"
+						}
+					]
+				},
+				{
+					"Id": "63e634df-4d8f-4fd9-b67d-34dbfb0dabeb",
+					"Type": "Button",
+					"Size": "Small",
+					"Action": {
+						"PluginId": "RunTools",
+						"DataModel": "Standalone",
+						"ItemId": "ExitClient",
+						"Category": "Actions"
+					}
+				}
+			]
+		},
+		{
+            "Size": "Large",
+            "Type": "Separator"
+        },
         {
             "Id": "1f3aa81b-42ee-40fb-adc2-331f1c5272fa",
             "Type": "IconButton",

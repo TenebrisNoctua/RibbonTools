@@ -2651,7 +2651,7 @@
     },
     {
         "Text": "Fwd",
-        "Icon": "rbxasset://studio_svg_textures/Shared/Navigation/{Theme}/Standard/Fwd@2x.png",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonFwd@2x.png",
         "Tooltip": "Jump to next script location",
         "Uri": {
             "PluginId": "ScriptTools",
