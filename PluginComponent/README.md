@@ -2,7 +2,7 @@
 
 In Roblox Studio, supposedly for built-in plugins to communicate with internal C++ APIs, there exists a method for the `plugin` object called `plugin:GetPluginComponent(name: string)`. On the API reference, this method is shown to return a `Variant`, or `any`. In reality, it returns an internal object called `CommandData`.
 
-This `CommandData` userdata object does not have any documentation or any API reference. Due to this, I've decided to write a small documentation about what kind of `CommandData` objects there are, and how they're used internally. Because there exists almost no information about this object, this documentation may be inaccurate. Take it with a grain of salt.
+This `CommandData` userdata object does not have any documentation or any API reference. Due to this, I've decided to write a small documentation about what kind of `CommandData` objects there are, and how they're used internally. Because there exists almost no information about this object, this documentation may be inaccurate at certain places. Take it with a grain of salt.
 
 For each requested component, each `CommandData` will have different methods and properties. So I will mention these specialized `CommandData` objects with the names that are used to retrieve them.
 
