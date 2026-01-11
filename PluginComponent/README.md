@@ -154,7 +154,7 @@ This method allows you to get the data of a setting from the target uri(s).
 
 This method allows you to update the data of the target setting(s).
 
-The required type of the `targetSettings` table is this:
+The required type of the `targetSettings` table is as follows:
 
 ```luau
 type targetSettings = {{
