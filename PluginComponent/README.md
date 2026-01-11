@@ -52,7 +52,7 @@ This method returns all of the currently available actions in a table.
 
 ### `ActionsComponent:GetAsync(targetUris: {{[string]: string}}): {{[string]: any}}`
 
-This method allows you to get the data of an action from target uri(s).
+This method allows you to get the data of an action from the target uri(s).
 
 ### `ActionsComponent:ActivateAsync(uri: {[string]: string}): ()`
 
@@ -148,7 +148,7 @@ This method returns all of the currently available settings in a table.
 
 ### `SettingsComponent:GetAsync(targetUris: {{[string]: string}}): {{[string]: any}}`
 
-This method allows you to get the data of a setting from target uri(s).
+This method allows you to get the data of a setting from the target uri(s).
 
 ### `SettingsComponent:UpdateAsync(targetSettings: {{[string]: any}}): {{[string]: any}}`
 
