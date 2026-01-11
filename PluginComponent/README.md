@@ -168,7 +168,7 @@ type targetSettings = {{
 }}
 ```
 
-Additional values can be added or removed to the table, depending on the setting.
+Additional values can be added to the table, depending on the setting.
 
 ### `SettingsComponent:BindAsync(uri: {[string]: string}): RBXScriptSignal`
 
