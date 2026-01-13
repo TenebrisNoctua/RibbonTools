@@ -150,14 +150,14 @@ This method returns all of the currently available settings in a table.
 
 This method allows you to get the data of a setting from the target uri(s).
 
-### `SettingsComponent:UpdateAsync(targetSettings: {{[string]: any}}): {{[string]: any}}`
+### `SettingsComponent:UpdateAsync(targetSettings: TargetSettings): {{[string]: any}}`
 
 This method allows you to update the data of the target setting(s).
 
 The required type of the `targetSettings` table is as follows:
 
 ```luau
-type targetSettings = {{
+type TargetSettings = {{
     Uri: {
 		Category: string,
 		DataModel: string,
@@ -190,6 +190,43 @@ end)
 ```
 
 -----
+
+## Panels Component
+
+### `PanelsComponent:SetAttachmentAsync(uri: {[string]: string}, params: Params)`
+
+```luau
+type Params = {
+    TargetWidgetUri: {[string]: string},
+	TargetAnchorPoint: Vector2,
+	SubjectAnchorPoint: Vector2,
+	Offset: Vector2,
+	AllowScreenOverflow: boolean
+}
+```
+
+### `PanelsComponent:SetSizeAsync(uri: {[string]: string}, size: Vector2)`
+
+-----
+
+## Widgets Component
+
+### `WidgetsComponent:RegisterAsync(targets: Targets)`
+
+```luau
+type Targets = {{
+    Uri: {
+		Category: string,
+		DataModel: string,
+		ItemId: string,
+		PluginId: string
+	},
+    Widget: PluginGui,
+    DEPRECATED_PluginGui: PluginGui
+}}
+```
+
+### `WidgetsComponent:DeregisterAsync(targetUris: {{[string]: string}})`
 
 
 
