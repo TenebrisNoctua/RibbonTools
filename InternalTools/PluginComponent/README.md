@@ -1,4 +1,4 @@
-# Plugin Components
+# Plugin Component
 
 In Roblox Studio, supposedly for built-in plugins to communicate with internal C++ APIs, there exists a method for the `plugin` object called `plugin:GetPluginComponent(name: string)`. On the API reference, this method is shown to return a `Variant`, or `any`. In reality, it returns an internal object called `CommandData`.
 
@@ -6,13 +6,37 @@ This `CommandData` userdata object does not have any documentation or any API re
 
 For each requested component, each `CommandData` will have different methods and properties. So I will mention these specialized `CommandData` objects with the names that are used to retrieve them.
 
+It must be noted that `plugin:GetPluginComponent(name: string)` API is not truly a full component API. It may give you other types of `CommandData` objects that may not be related to a specific plugin component. 
+
 -----
 
-# Control Category Components
+# Plugin Component Categories
 
-Each control in Roblox Studio can have different categories of functionality. Some might be just simple actions, others might be more related to a setting. There are currently 5 categories of controls in Roblox Studio: `Actions`, `Settings`, `Widgets`, `Tools`, `Panels`.
+This section is about `CommandData` objects that are used to grant advanced functionality to built-in plugin components.
 
-The most important part of a specific category's data table is the `Uri` property. It determines which plugin and which item/button it belongs to. 
+Each plugin component in Roblox Studio can have different categories of functionality. Some might be just simple actions, others might be more related to a setting. 
+
+There are currently 5 categories of components in Roblox Studio: `Actions`, `Settings`, `Widgets`, `Tools`, `Panels`.
+
+*(Note: This list does not represent all `CommandData` objects that can be retrieved through `:GetPluginComponent()` API. It is simply a list of all currently known component related APIs.)*
+
+## Uri
+
+```luau
+export type StudioUriDataModel = "Edit" | "PlayClient" | "PlayServer" | "Standalone" | "Null"
+export type StudioUriPluginType = "Cloud" | "Local" | "Asset" | "Standalone"
+export type StudioUriCategory = "Actions" | "Panels" | "Settings" | "Tools" | "Widgets"
+
+export type StudioUri = {
+	DataModel: StudioUriDataModel?,
+	PluginType: StudioUriPluginType?,
+	PluginId: string?,
+	Category: StudioUriCategory?,
+	ItemId: string?,
+}
+```
+
+Every plugin component has a data field, called "Uri", which allows you to retrieve information about that specific plugin component. It gives you important information such as which plugin the component has been created from, and its `ItemId`, which is used to identify the component itself. It also tells you which category the component belongs to. 
 
 -----
 
@@ -50,11 +74,11 @@ The `Icon` property, for example, determines the icon that will be on the Output
 
 This method returns all of the currently available actions in a table.
 
-### `ActionsComponent:GetAsync(targetUris: {{[string]: string}}): {{[string]: any}}`
+### `ActionsComponent:GetAsync(targetUris: {StudioUri}): {{[string]: any}}`
 
 This method allows you to get the data of an action from the target uri(s).
 
-### `ActionsComponent:ActivateAsync(uri: {[string]: string}): ()`
+### `ActionsComponent:ActivateAsync(uri: StudioUri): ()`
 
 This method activates a specific action with the provided `uri`. 
 
@@ -71,7 +95,7 @@ Plugin:GetPluginComponent("Actions"):ActivateAsync({
 
 This will activate/de-activate the Output window.
 
-### `ActionsComponent:BindToActivatedAsync(uri: {[string]: string}): RBXScriptSignal`
+### `ActionsComponent:BindToActivatedAsync(uri: StudioUri): RBXScriptSignal`
 
 This method returns an `RBXScriptSignal` that is fired when the action from the provided `uri` is activated.
 
@@ -146,7 +170,7 @@ Here's what an example setting data looks like:
 
 This method returns all of the currently available settings in a table.
 
-### `SettingsComponent:GetAsync(targetUris: {{[string]: string}}): {{[string]: any}}`
+### `SettingsComponent:GetAsync(targetUris: {StudioUri}): {{[string]: any}}`
 
 This method allows you to get the data of a setting from the target uri(s).
 
@@ -170,7 +194,7 @@ type TargetSettings = {{
 
 Additional values can be added to the table, depending on the setting.
 
-### `SettingsComponent:BindAsync(uri: {[string]: string}): RBXScriptSignal`
+### `SettingsComponent:BindAsync(uri: StudioUri): RBXScriptSignal`
 
 This method returns an `RBXScriptSignal` that is only fired when the setting from the provided `uri` has been set to a new action.
 
@@ -193,11 +217,15 @@ end)
 
 ## Panels Component
 
-### `PanelsComponent:SetAttachmentAsync(uri: {[string]: string}, params: Params)`
+This component type is used to manage internal widgets. It's primarily used with `QWidgetPluginGui` instances.
+
+### `PanelsComponent:SetAttachmentAsync(uri: StudioUri, params: Params)`
+
+This method allows you to attach a widget to another. The `uri` argument represents the uri of the widget that you want to attach. The `params` argument represents a table, which contains information about the target widget that you want to attach your widget to, with additional properties to determine the final position.
 
 ```luau
 type Params = {
-    TargetWidgetUri: {[string]: string},
+    TargetWidgetUri: StudioUri,
 	TargetAnchorPoint: Vector2,
 	SubjectAnchorPoint: Vector2,
 	Offset: Vector2,
@@ -205,7 +233,42 @@ type Params = {
 }
 ```
 
-### `PanelsComponent:SetSizeAsync(uri: {[string]: string}, size: Vector2)`
+For example:
+
+```luau
+-- This sets a widget of a plugin below the "Collaborate" button.
+Plugin:GetPluginComponent("Panels"):SetAttachmentAsync({
+	ItemId = "XXXX", -- The id of the widget.
+	DataModel = "Edit",
+	PluginId = "XXXX", -- The id of the plugin.
+	PluginType = "Local" -- If using a cloud plugin, change to "Cloud".
+}, {
+	TargetWidgetUri = {
+		["Category"] = "Actions",
+		["DataModel"] = "Standalone",
+		["ItemId"] = "Open",
+		["PluginId"] = "ManageCollaborators"
+	},
+	TargetAnchorPoint = Vector2.new(0, 0),
+	SubjectAnchorPoint = Vector2.new(0, 0),
+	Offset = Vector2.new(0, 0)
+})
+```
+
+### `PanelsComponent:SetSizeAsync(uri: StudioUri, size: Vector2)`
+
+This method allows you to set the size of a specific widget from its `uri`.
+
+For example:
+
+```luau
+Plugin:GetPluginComponent("Panels"):SetSizeAsync({ 
+	ItemId = "Ribbon",
+	DataModel = "Standalone",
+	PluginId = "Ribbon",
+	PluginType = "Standalone"
+}, Vector2.new(1920, 35))
+```
 
 -----
 

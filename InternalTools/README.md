@@ -1,0 +1,3 @@
+In this folder, there exists documentation on certain internal-only Roblox APIs. I have documented them for future reference, and research.
+
+It must be noted that there exists no way for an average user to access these APIs. And these APIs may change or be removed at any time. I also possess no responsibility about the data-loss or corruption that may occur due to incorrect usage of these APIs. If you're willing to use them, use carefully.

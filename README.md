@@ -5,5 +5,6 @@ If you'd like to contribute to one of the tools, feel free to open a PR.
 
 ## Tools
 
-* [OldRibbonTabs](OldRibbonTabs/README.md)
-* [RibbonBuiltInControls](RibbonBuiltInControls/README.md)
+* [OldRibbonTabs](OldRibbonTabs)
+* [RibbonBuiltInControls](RibbonBuiltInControls)
+* [InternalTools](InternalTools)
