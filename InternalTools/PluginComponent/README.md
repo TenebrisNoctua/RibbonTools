@@ -182,12 +182,7 @@ The required type of the `targetSettings` table is as follows:
 
 ```luau
 type TargetSettings = {{
-    Uri: {
-		Category: string,
-		DataModel: string,
-		ItemId: string,
-		PluginId: string
-	},
+    Uri: StudioUri,
     Value: any
 }}
 ```
