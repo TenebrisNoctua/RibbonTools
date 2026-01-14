@@ -121,7 +121,7 @@ end)
 This component is pretty similar to the actions component, except it represents a current setting of a control. This means that instead of firing one action every time, you can have multiple actions that trigger different functionality, and set one of them as the default.
 
 An example is the "Group" `SplitButton` on the Home tab of the Ribbon. It has two actions: "Group as Folder" and "Group as Model".
-Each one of these actions allow you to trigger different kinds of functionality. "Group as Folder" groups the selected selected `Instance` as a `Folder`, while "Group as Model" groups it as a `Model`. 
+Each one of these actions allow you to trigger different kinds of functionality. "Group as Folder" groups the selected `Instance` as a `Folder`, while "Group as Model" groups it as a `Model`. 
 
 Upon triggering one of these actions, the control will default to using that action. So if you were to select "Group as Folder", by default, every time you activate the control normally, the selected `Instance` will be grouped as a `Folder`.
 
