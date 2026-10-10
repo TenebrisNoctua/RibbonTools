@@ -161,9 +161,9 @@
         }
     },
     {
-        "Text": "Device Emulator",
+        "Text": "Device Simulator",
         "Icon": "rbxasset://textures/DeviceEmulator/emulator.png",
-        "Tooltip": "Device Emulator",
+        "Tooltip": "Device Simulator",
         "Uri": {
             "PluginId": "DeviceEmulation",
             "DataModel": "Standalone",
@@ -753,7 +753,7 @@
         "Uri": {
             "PluginId": "RunTools",
             "DataModel": "Standalone",
-            "ItemId": "ServerAndClients",
+            "ItemId": "StartServer",
             "Category": "Actions"
         }
     },
@@ -996,7 +996,7 @@
         }
     },
     {
-        "Text": "Find and Replace All",
+        "Text": "Find in Place",
         "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonFindAll@2x.png",
         "Tooltip": "View Find/Replace Window",
         "Uri": {
@@ -1212,9 +1212,9 @@
         }
     },
     {
-        "Text": "Import 3D",
+        "Text": "Import",
         "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/Ribbon3DImport@2x.png",
-        "Tooltip": "Import a mesh rig or avatar from a file using the import UI.",
+        "Tooltip": "Import content from a file",
         "Uri": {
             "PluginId": "MeshImporter",
             "DataModel": "Standalone",
@@ -1377,7 +1377,7 @@
         "Text": "Publish to Roblox",
         "Tooltip": "Publish active document to Roblox",
         "Uri": {
-            "PluginId": "PlaceManagement",
+            "PluginId": "Collaboration",
             "DataModel": "Standalone",
             "ItemId": "PublishToRoblox",
             "Category": "Actions"
@@ -1556,7 +1556,7 @@
         }
     },
     {
-        "Text": "Animation",
+        "Text": "Clip Editor",
         "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonAnimation@2x.png",
         "Tooltip": "Create, preview, and publish animation clips",
         "Uri": {
@@ -1579,7 +1579,7 @@
     {
         "Text": "Redo",
         "Icon": "rbxasset://studio_svg_textures/Shared/Clipboard/{Theme}/Standard/Redo@2x.png",
-        "Tooltip": "Redo (Ctrl+Y, Alt+Shift+Backspace, Ctrl+Shift+Z)",
+        "Tooltip": "Redo",
         "Uri": {
             "PluginId": "Common",
             "DataModel": "Standalone",
@@ -1601,6 +1601,7 @@
     {
         "Text": "Undo",
         "Icon": "rbxasset://studio_svg_textures/Shared/Clipboard/{Theme}/Standard/Undo@2x.png",
+        "Tooltip": "Undo",
         "Uri": {
             "PluginId": "Common",
             "DataModel": "Standalone",
@@ -1757,12 +1758,12 @@
         }
     },
     {
-        "Text": "View History",
-        "Tooltip": "View History",
+        "Text": "Version History",
+        "Tooltip": "Version History",
         "Uri": {
-            "PluginId": "VersionControl",
+            "PluginId": "PlaceVersionHistory",
             "DataModel": "Standalone",
-            "ItemId": "OpenPlaceHistory",
+            "ItemId": "Toggle",
             "Category": "Actions"
         }
     },
@@ -1976,8 +1977,8 @@
         }
     },
     {
-        "Text": "Game Settings",
-        "Tooltip": "Update settings related to current game",
+        "Text": "Experience Settings",
+        "Tooltip": "Update settings related to current experience",
         "Uri": {
             "PluginId": "GameSettings",
             "DataModel": "Standalone",
@@ -2555,7 +2556,7 @@
     {
         "Text": "TextLabel",
         "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonTextLabel@2x.png",
-        "Tooltip": "A GUI object containing text",
+        "Tooltip": "TextLabel",
         "Uri": {
             "PluginId": "BuilderTools",
             "DataModel": "Standalone",
@@ -2714,7 +2715,7 @@
     },
     {
         "Text": "Compare Package Versions",
-        "Tooltip": "Compare Package Versions",
+        "Tooltip": "Compare package versions",
         "Uri": {
             "PluginId": "PackageTools",
             "DataModel": "Standalone",
@@ -2724,7 +2725,7 @@
     },
     {
         "Text": "Undo Changes to Package",
-        "Tooltip": "Undo Changes to Package",
+        "Tooltip": "Revert all overrides",
         "Uri": {
             "PluginId": "PackageTools",
             "DataModel": "Standalone",
@@ -2877,7 +2878,7 @@
         "Text": "MicroProfiler",
         "Tooltip": "Performance optimization and troubleshooting tool that provides detailed timing information for task scheduler tasks",
         "Uri": {
-            "PluginId": "Microprofiler",
+            "PluginId": "MicroProfiler",
             "DataModel": "Standalone",
             "ItemId": "Toggle",
             "Category": "Actions"
@@ -3236,6 +3237,753 @@
             "PluginId": "QuickOpen",
             "DataModel": "Standalone",
             "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "UGC Validation",
+        "Tooltip": "Open UGC Validation",
+        "Uri": {
+            "PluginId": "AssetQualityValidation",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Step forwards through tab history",
+        "Tooltip": "Step forwards through tab history",
+        "Uri": {
+            "PluginId": "Documents",
+            "DataModel": "Standalone",
+            "ItemId": "DocHistoryForward",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Scene Analysis",
+        "Tooltip": "A tool for analyzing scene resources within your experience.",
+        "Uri": {
+            "PluginId": "SceneAnalysis",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Delete Contextual Breakpoint",
+        "Tooltip": "Delete Contextual Breakpoint",
+        "Uri": {
+            "PluginId": "Debug",
+            "DataModel": "Standalone",
+            "ItemId": "DeleteContextBreakpoint",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Open Configs",
+        "Tooltip": "Open Configs",
+        "Uri": {
+            "PluginId": "CreatorConfig",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Input Action Manager",
+        "Tooltip": "Set up contexts, actions, and bindings",
+        "Uri": {
+            "PluginId": "InputActionManager",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Graph Editor",
+        "Icon": "rbxasset://studio_svg_textures/Shared/WidgetIcons/{Theme}/Large/AnimationGraphEditor@2x.png",
+        "Tooltip": "Create, preview and publish animation graphs",
+        "Uri": {
+            "PluginId": "AnimationGraphEditor",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Texture",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonMeshTextureTool@2x.png",
+        "Tooltip": "Generate and apply texture",
+        "Uri": {
+            "PluginId": "Gen3d",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Insert Contextual Breakpoint",
+        "Tooltip": "Insert Contextual Breakpoint",
+        "Uri": {
+            "PluginId": "Debug",
+            "DataModel": "Standalone",
+            "ItemId": "InsertContextBreakpoint",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Remove reimport config",
+        "Tooltip": "Clears the association between an instance and a reimport config. Will not affect duplicates.",
+        "Uri": {
+            "PluginId": "Reimport",
+            "DataModel": "Standalone",
+            "ItemId": "ClearReimportConfig",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Align Dragged Objects",
+        "Tooltip": "Rotate dragged objects to align them with the target surface",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "ToggleAlignDraggedObjects",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Color Action as Tool",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonColor@2x.png",
+        "Tooltip": "Toggle color action as tool",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "ColorFillTool",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Configure...",
+        "Tooltip": "Configure reimport settings",
+        "Uri": {
+            "PluginId": "Reimport",
+            "DataModel": "Standalone",
+            "ItemId": "Configure",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Snap",
+        "Tooltip": "Does the pivot snap to hotspots (corners, edges, face centers) of the hovered object?",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "TogglePivotSnap",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Reimport relative to this",
+        "Tooltip": "Reimport relative to this",
+        "Uri": {
+            "PluginId": "Reimport",
+            "DataModel": "Standalone",
+            "ItemId": "DoReimportRelativeToThis",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Copy Path",
+        "Tooltip": "Copy the paths of instances in the selection",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "CopyPath",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Auto-Reimport",
+        "Tooltip": "Toggle whether this instance should be automatically reimported when the local file changes",
+        "Uri": {
+            "PluginId": "Reimport",
+            "DataModel": "Standalone",
+            "ItemId": "WatchInstanceFile",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "UIShadow",
+        "Tooltip": "UIShadow",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonUIShadow@2x.png",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/UIShadow",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Reimport",
+        "Tooltip": "Reimport",
+        "Uri": {
+            "PluginId": "Reimport",
+            "DataModel": "Standalone",
+            "ItemId": "DoReimport",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Material Action as Tool",
+        "Tooltip": "Toggle material action as tool",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "MaterialFillTool",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Dump Window Hierarchy to Log",
+        "Tooltip": "Dump Window Hierarchy to Log",
+        "Uri": {
+            "PluginId": "WindowManagement",
+            "DataModel": "Standalone",
+            "ItemId": "DumpWindowHierarchy",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Adaptive Animation",
+        "Icon": "rbxasset://studio_svg_textures/Lua/AdaptiveAnimationSupport/{Theme}/Standard/tool@2x.png",
+        "Tooltip": "Create and edit your rig retargeting settings",
+        "Uri": {
+            "PluginId": "AdaptiveAnimationSupport",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Clear Output Window",
+        "Tooltip": "Clear Output Window",
+        "Uri": {
+            "PluginId": "Output",
+            "DataModel": "Standalone",
+            "ItemId": "Clear",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Open Logs Folder",
+        "Tooltip": "Open Logs Folder",
+        "Uri": {
+            "PluginId": "Help",
+            "DataModel": "Standalone",
+            "ItemId": "OpenLogsFolder",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "UI Editor",
+        "Tooltip": "UI Editor v1.0",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonGUI@2x.png",
+        "Uri": {
+            "PluginId": "UIEditor",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Reset Script Zoom",
+        "Tooltip": "Reset font size",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "ResetZoom",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Collision Check",
+        "Icon": "rbxasset://studio_svg_textures/Shared/WidgetIcons/{Theme}/Large/CollisionGroups@2x.png",
+        "Tooltip": "Collision Check",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "ToggleCollisionCheck",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Publish to Roblox with Notes",
+        "Tooltip": "Publish active document to Roblox with version notes",
+        "Uri": {
+            "PluginId": "Collaboration",
+            "DataModel": "Standalone",
+            "ItemId": "PublishToRobloxWithNotes",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Reload Script",
+        "Tooltip": "Reload a script after modifying it, while playing",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "ReloadScript",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Swap Attachments",
+        "Tooltip": "Swap both attachments on the constraint",
+        "Uri": {
+            "PluginId": "Constraints",
+            "DataModel": "Standalone",
+            "ItemId": "SwapAttachments",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Close All Scripts",
+        "Tooltip": "Close All Scripts",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "CloseAllScripts",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Step backwards through tab history",
+        "Tooltip": "Step backwards through tab history",
+        "Uri": {
+            "PluginId": "Documents",
+            "DataModel": "Standalone",
+            "ItemId": "DocHistoryBackward",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Tilt",
+        "Tooltip": "Tilt objects",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "TiltSelection",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Reveal In Explorer/Finder (RBXP)",
+        "Tooltip": "Reveal In Explorer/Finder (RBXP)",
+        "Uri": {
+            "PluginId": "Explorer",
+            "DataModel": "Standalone",
+            "ItemId": "Reveal",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Scale",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonAttachment@2x.png",
+        "Tooltip": "Constraint widget scale (Alt+Scroll Wheel)",
+        "Uri": {
+            "PluginId": "Constraints",
+            "DataModel": "Standalone",
+            "ItemId": "GizmoScale",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Animation Constraint",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonAnimationConstraint@2x.png",
+        "Tooltip": "Create animation constraint",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ConstraintAnimation",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Save to Roblox with Notes",
+        "Tooltip": "Save active document to Roblox with version notes",
+        "Uri": {
+            "PluginId": "Publishing",
+            "DataModel": "Standalone",
+            "ItemId": "SaveToRobloxWithNotes",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "UI",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonGUI@2x.png",
+        "Tooltip": "Add UI elements",
+        "Uri": {
+            "PluginId": "UIMenu",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Apply Edits",
+        "Tooltip": "Push the current edits to a script to the Team Create server",
+        "Uri": {
+            "PluginId": "ScriptTools",
+            "DataModel": "Standalone",
+            "ItemId": "ApplyEdits",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Join Surfaces Check",
+        "Tooltip": "Join Surfaces Check",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "ToggleJointCreation",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Insert Breakpoint",
+        "Tooltip": "Insert Breakpoint",
+        "Uri": {
+            "PluginId": "Debug",
+            "DataModel": "Standalone",
+            "ItemId": "InsertBreakpoint",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Snap to Parts - Toggle",
+        "Tooltip": "Toggle whether dragger tools snap to the edges / centers of parts.",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "ToggleSnapToParts",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Toggle - Dragger Snapping Use Bounding Boxes",
+        "Tooltip": "Toggle the \"Use Bounding Boxes\" checkbox in the ribbon's dragger settings dropdown.",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "ToggleUseBoundingBoxes",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "User Input Playback",
+        "Tooltip": "User Input Playback",
+        "Uri": {
+            "PluginId": "UserInputPlayback",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Instance Dump",
+        "Tooltip": "Instance Dump",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "InstanceDump",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Service",
+        "Tooltip": "Insert service from a service selection",
+        "Uri": {
+            "PluginId": "InsertService",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Terrain",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonTerrain@2x.png",
+        "Tooltip": "Create and edit terrain",
+        "Uri": {
+            "PluginId": "TerrainTools",
+            "DataModel": "Standalone",
+            "ItemId": "ToggleAlias",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Terrain Material Manager",
+        "Tooltip": "Terrain Material Manager",
+        "Uri": {
+            "PluginId": "TerrainPaletteEditor",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Constraint Check",
+        "Tooltip": "Constraint Check",
+        "Uri": {
+            "PluginId": "Constraints",
+            "DataModel": "Standalone",
+            "ItemId": "ToggleCheck",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Anim Graph",
+        "Tooltip": "Create, preview and publish animation graphs",
+        "Uri": {
+            "PluginId": "CompositorDebugger",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Delete Breakpoint",
+        "Tooltip": "Delete Breakpoint",
+        "Uri": {
+            "PluginId": "Debug",
+            "DataModel": "Standalone",
+            "ItemId": "DeleteBreakpoint",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Disable Breakpoint",
+        "Tooltip": "Disable Breakpoint",
+        "Uri": {
+            "PluginId": "Debug",
+            "DataModel": "Standalone",
+            "ItemId": "ToggleBreakpointState",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Model",
+        "Icon": "rbxasset://studio_svg_textures/Shared/InsertableObjects/{Theme}/Standard/Model@2x.png",
+        "Tooltip": "Insert a model from local files",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "ImportModel",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Add Watch",
+        "Tooltip": "Add Watch",
+        "Uri": {
+            "PluginId": "Debug",
+            "DataModel": "Standalone",
+            "ItemId": "AddWatch",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Toggle All Breakpoints",
+        "Tooltip": "Enable/disable all breakpoints",
+        "Uri": {
+            "PluginId": "Debug",
+            "DataModel": "Standalone",
+            "ItemId": "ToggleAllBreakpoints",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Focus on Command Bar",
+        "Tooltip": "Set keyboard focus to Command Bar",
+        "Uri": {
+            "PluginId": "CommandBar",
+            "DataModel": "Standalone",
+            "ItemId": "Focus",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Ball on axis",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Medium/RibbonBallSocketConstraint@2x.png",
+        "Tooltip": "Create ball on axis",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "Insert/ConstraintBallOnAxis",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Visualization Modes",
+        "Icon": "rbxasset://studio_svg_textures/Shared/WidgetIcons/{Theme}/Standard/VisualizationModes@2x.png",
+        "Tooltip": "Viewport Options",
+        "Uri": {
+            "PluginId": "Visualization",
+            "DataModel": "Standalone",
+            "ItemId": "Modes",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Manage Devices...",
+        "Tooltip": "Manage emulated devices",
+        "Uri": {
+            "PluginId": "DeviceEmulation",
+            "DataModel": "Standalone",
+            "ItemId": "ManageEmulationDevice",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Calibrate scaling...",
+        "Tooltip": "Calibrate Physical Size scaling for your screen",
+        "Uri": {
+            "PluginId": "Device",
+            "DataModel": "Standalone",
+            "ItemId": "CalibrateDeviceScaling",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Report Illegal Content",
+        "Tooltip": "Open a webpage to report illegal content on Roblox",
+        "Uri": {
+            "PluginId": "Help",
+            "DataModel": "Standalone",
+            "ItemId": "Open/ReportIllegalContent",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Online Help...",
+        "Tooltip": "Online Help",
+        "Uri": {
+            "PluginId": "Help",
+            "DataModel": "Standalone",
+            "ItemId": "OnlineHelp",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Game Settings",
+        "Tooltip": "Game Settings",
+        "Uri": {
+            "PluginId": "GameSettings",
+            "DataModel": "Standalone",
+            "ItemId": "Permissions",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Toggle Local Space",
+        "Tooltip": "Toggle Local Space",
+        "Uri": {
+            "PluginId": "BuilderTools",
+            "DataModel": "Standalone",
+            "ItemId": "ToggleLocalSpace",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Show / Hide Server Viewport",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonServerSmall@2x.png",
+        "Tooltip": "Show / Hide Server Viewport",
+        "Uri": {
+            "PluginId": "ServerViewport",
+            "DataModel": "Standalone",
+            "ItemId": "Toggle",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Select All Modified Packages",
+        "Tooltip": "Select All Modified Packages",
+        "Uri": {
+            "PluginId": "PackageTools",
+            "DataModel": "Standalone",
+            "ItemId": "SelectAllModifiedPackages",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Select Connections",
+        "Tooltip": "Select connections of the attachment or constraint",
+        "Uri": {
+            "PluginId": "Constraints",
+            "DataModel": "Standalone",
+            "ItemId": "SelectConnections",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Select Connection 1",
+        "Tooltip": "Select Attachment1 of a constraint or Part1 of a weld",
+        "Uri": {
+            "PluginId": "Constraints",
+            "DataModel": "Standalone",
+            "ItemId": "SelectAttachment1",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Select Connection 0",
+        "Tooltip": "Select Attachment0 of a constraint or Part0 of a weld",
+        "Uri": {
+            "PluginId": "Constraints",
+            "DataModel": "Standalone",
+            "ItemId": "SelectAttachment0",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Plugin Screenshot",
+        "Icon": "rbxasset://textures/ui/ScreenshotHud/Camera@2x.png",
+        "Tooltip": "Capture a plugin window",
+        "Uri": {
+            "PluginId": "Common",
+            "DataModel": "Standalone",
+            "ItemId": "PluginScreenshot",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Continue",
+        "Tooltip": "Continue",
+        "Uri": {
+            "PluginId": "UpdateManager",
+            "DataModel": "Standalone",
+            "ItemId": "Continue",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Age check needed",
+        "Tooltip": "Age check needed",
+        "Uri": {
+            "PluginId": "LogoutMenu",
+            "DataModel": "Standalone",
+            "ItemId": "VerifyAge",
+            "Category": "Actions"
+        }
+    },
+    {
+        "Text": "Show Client Viewport",
+        "Icon": "rbxasset://studio_svg_textures/Shared/Ribbon/{Theme}/Standard/RibbonClientSmall@2x.png",
+        "Tooltip": "Show Client Viewport",
+        "Uri": {
+            "PluginId": "ClientViewport",
+            "DataModel": "Standalone",
+            "ItemId": "Show",
             "Category": "Actions"
         }
     }
